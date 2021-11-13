@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://618.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="http://618.sh/" rel="alternate" type="text/html" /><updated>2021-11-13T21:38:20+08:00</updated><id>http://618.sh/feed.xml</id><title type="html">618.SH</title><entry><title type="html">新人入门级教程</title><link href="http://618.sh/game/2021/11/11/dont-starve-tutorial.html" rel="alternate" type="text/html" title="新人入门级教程" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-tutorial</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-tutorial.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://618.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="http://618.sh/" rel="alternate" type="text/html" /><updated>2021-11-13T22:06:17+08:00</updated><id>http://618.sh/feed.xml</id><title type="html">618.SH</title><entry><title type="html">新人入门级教程</title><link href="http://618.sh/game/2021/11/11/dont-starve-tutorial.html" rel="alternate" type="text/html" title="新人入门级教程" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-tutorial</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-tutorial.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
 &lt;span class=&quot;c&quot;&gt;# 0x1 安装游戏&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;game&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -1614,41 +1614,14 @@ To add a custom directory to your theme-gem, please edit the regexp in &lt;code 
 
 &lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
 
-&lt;p&gt;The theme is available as open source under the terms of the &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="other" /><summary type="html">jekyll-theme-console</summary></entry><entry><title type="html">赞助</title><link href="http://618.sh/other/2021/11/06/pay.html" rel="alternate" type="text/html" title="赞助" /><published>2021-11-06T12:00:00+08:00</published><updated>2021-11-06T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/06/pay</id><content type="html" xml:base="http://618.sh/other/2021/11/06/pay.html">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/image/quick_response_code_alipay.png&quot; alt=&quot;&quot; width=&quot;98%&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
+&lt;p&gt;The theme is available as open source under the terms of the &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="other" /><summary type="html">jekyll-theme-console</summary></entry><entry><title type="html">测试页面-赞助</title><link href="http://618.sh/other/2021/11/06/pay.html" rel="alternate" type="text/html" title="测试页面-赞助" /><published>2021-11-06T12:00:00+08:00</published><updated>2021-11-06T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/06/pay</id><content type="html" xml:base="http://618.sh/other/2021/11/06/pay.html">&lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;支付宝&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/assets/image/quick_response_code_alipay.png&quot; width=&quot;98%&quot;&gt;&lt;em&gt;支付宝&lt;/em&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/assets/image/quick_response_code_mmpay.png&quot; width=&quot;98%&quot;&gt;&lt;em&gt;微信&lt;/em&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/assets/image/quick_response_code_mmlike.png&quot; width=&quot;98%&quot;&gt;&lt;em&gt;赞赏&lt;/em&gt;&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/image/quick_response_code_mmpay.png&quot; alt=&quot;&quot; width=&quot;98%&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;微信&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/image/quick_response_code_mmlike.png&quot; alt=&quot;&quot; width=&quot;98%&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;赞赏&lt;/em&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="other" /><summary type="html">支付宝</summary></entry></feed>
+&lt;/table&gt;</content><author><name></name></author><category term="other" /><summary type="html">支付宝   微信   赞赏</summary></entry></feed>
