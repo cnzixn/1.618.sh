@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://618.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="http://618.sh/" rel="alternate" type="text/html" /><updated>2021-11-13T21:04:25+08:00</updated><id>http://618.sh/feed.xml</id><title type="html">618.SH</title><entry><title type="html">新人入门级教程</title><link href="http://618.sh/game/2021/11/11/dont-starve-tutorial.html" rel="alternate" type="text/html" title="新人入门级教程" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-tutorial</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-tutorial.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 0x1 安装游戏&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;game&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;　如果你能访问外网，可以在 &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.kleientertainment.doNotStarveShipwrecked&quot;&gt;谷歌商店&lt;/a&gt; 购买正版。无法访问外网的话，可以在 &lt;a href=&quot;https://www.3839.com/a/85896.htm&quot;&gt;好游快爆&lt;/a&gt; 下载试玩版。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 0x2 安装框架&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;frame&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;1、兔人模组(0001)，此文件只有数据包补丁(ADD_TO_OBB)这一部分的文件&lt;a href=&quot;/assets/image/bunnyman_tutorial01.png&quot;&gt;(tu01.png)&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;2、兔人框架(110128)，此文件有安装包补丁(ADD_TO_APK)和数据包补丁(ADD_TO_OBB)这两部分的文件&lt;a href=&quot;/assets/image/bunnyman_tutorial02.png&quot;&gt;(tu02.png)&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;3、游戏安装包&lt;a href=&quot;/assets/image/bunnyman_tutorial03.png&quot;&gt;(tu03.png)&lt;/a&gt;与数据包&lt;a href=&quot;/assets/image/bunnyman_tutorial04.png&quot;&gt;(tu04.png)&lt;/a&gt;文件皆为 &lt;a href=&quot;https://baike.baidu.com/item/zip/16684862&quot;&gt;ZIP格式&lt;/a&gt; 的压缩文件。&lt;/p&gt;
+
+&lt;p&gt;4、将兔人框架中安装包补丁(ADD_TO_APK)里的文件&lt;strong&gt;&lt;em&gt;全选&lt;/em&gt;&lt;/strong&gt;并添加到安装包&lt;a href=&quot;/assets/image/bunnyman_tutorial05.png&quot;&gt;(tu05.png)&lt;/a&gt;，数据包补丁(ADD_TO_OBB)里的文件&lt;strong&gt;&lt;em&gt;全选&lt;/em&gt;&lt;/strong&gt;并添加到数据包&lt;a href=&quot;/assets/image/bunnyman_tutorial06.png&quot;&gt;(tu06.png)&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;5、安装包需要&lt;strong&gt;&lt;em&gt;签名&lt;/em&gt;&lt;/strong&gt;后才能安装&lt;a href=&quot;/assets/image/bunnyman_tutorial07.png&quot;&gt;(tu07.png)&lt;/a&gt;；数据包需要重命名将 ***.&lt;strong&gt;&lt;em&gt;com&lt;/em&gt;&lt;/strong&gt;.klei*** 改为 ***.&lt;strong&gt;&lt;em&gt;hei&lt;/em&gt;&lt;/strong&gt;.klei*** ，然后移动到 /sdcard/Android/obb/&lt;strong&gt;&lt;em&gt;hei&lt;/em&gt;&lt;/strong&gt;.klei***/ 文件夹&lt;a href=&quot;/assets/image/bunnyman_tutorial08.png&quot;&gt;(tu08.png)&lt;/a&gt;。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 0x3 安装补丁&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;mod&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;　安装包补丁只会使用一次，所以一般说的补丁是数据包补丁，模组则是扩展游戏玩法的数据包补丁。在安装框架的第4步，你已经操作过了。请找到数据包补丁(ADD_TO_OBB)，将里面的文件&lt;strong&gt;&lt;em&gt;全选&lt;/em&gt;&lt;/strong&gt;并添加到数据包(obb)。&lt;a href=&quot;/assets/image/bunnyman_tutorial09.png&quot;&gt;(tu09.png)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="game" /><summary type="html"># 0x1 安装游戏 $ install game</summary></entry><entry><title type="html">模组使用指南</title><link href="http://618.sh/game/2021/11/11/dont-starve-mods.html" rel="alternate" type="text/html" title="模组使用指南" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-mods</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-mods.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 声明&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;statement&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;【免费】：兔人框架的主要功能、移植而来的补丁&lt;strong&gt;永久免费&lt;/strong&gt;，不要找任何人&lt;strong&gt;购买&lt;/strong&gt;。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;【赞助】：喜欢就赞助，不喜欢就白嫖。框架的&lt;strong&gt;专属优化&lt;/strong&gt;需要赞助，不喜欢可删除。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;【加密】：防止补丁文件遭&lt;strong&gt;篡改&lt;/strong&gt;被随意贩卖；防止补丁文件因&lt;strong&gt;搬运&lt;/strong&gt;而版本混乱。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 联系&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;contact &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;mqqopensdkapi://bizAgent/qm/qr?url=http://qm.qq.com/cgi-bin/qm/qr%3Ffrom=app%26p=android%26k=1x8UWTmLfQVjdcpP8SRhLWdO8j_LICqt&quot;&gt;[556106293]&lt;/a&gt;：全体禁言。发布更新通知，新人务必加入。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;mqqopensdkapi://bizAgent/qm/qr?url=http://qm.qq.com/cgi-bin/qm/qr%3Ffrom=app%26p=android%26k=KnkVjjF7OiwDcpO3WG6vXXTVn2bicq0J&quot;&gt;[614255348]&lt;/a&gt;：限时开放。古老的交流群，新人请勿加入。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 教程&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;tutorial&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;/game/2021/11/11/dont-starve-tutorial.html&quot;&gt;[TUTORIAL]新人入门级教程&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 工具&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls &lt;/span&gt;tools&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dl.mt2.cn/MT2.10.0.apk&quot;&gt;MT管理器(2.10.0)&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://d.mt2.cn/&quot;&gt;其它版本&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 游戏&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls &lt;/span&gt;games&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;gt; 游戏文件下载链接由好游快爆提供&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://sj.71acg.com/hykb/202101/20210105dontstarveship.apk&quot;&gt;ShipWrecked.APK(1.28.1)&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://sj.71acg.com/hykb/202101/main.51.com.kleientertainment.doNotStarveShipwrecked.obb&quot;&gt;ShipWrecked.OBB(1.28.1)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 框架&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls &lt;/span&gt;frames&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;更新频繁，暂不公开，[&lt;a href=&quot;mqqopensdkapi://bizAgent/qm/qr?url=http://qm.qq.com/cgi-bin/qm/qr%3Ffrom=app%26p=android%26k=1x8UWTmLfQVjdcpP8SRhLWdO8j_LICqt&quot;&gt;556106293&lt;/a&gt;]群文件下载&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 补丁&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls &lt;/span&gt;mods&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0001.zip&quot;&gt;0001.TMI测试工具&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0181.zip&quot;&gt;0181.失落的岛屿&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0002.zip&quot;&gt;0002.毛瑟98K&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0182.zip&quot;&gt;0182.制作地毯&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0003.zip&quot;&gt;0003.状态显示&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0183.zip&quot;&gt;0183.打包纸&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0004.zip&quot;&gt;0004.更多植物可移植&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0184.zip&quot;&gt;0184.［人物］龙女仆－康娜&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0005.zip&quot;&gt;0005.自动接回旋镖&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0185.zip&quot;&gt;0185.［人物］舰娘－晓&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0006.zip&quot;&gt;0006.鱼缸&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0186.zip&quot;&gt;0186.［人物］瑞文&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0007.zip&quot;&gt;0007.蜂后BOSS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0187.zip&quot;&gt;0187.月相盘&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0008.zip&quot;&gt;0008.更好的阿比盖尔&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0188.zip&quot;&gt;0188.衣柜&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0009.zip&quot;&gt;0009.五格装备栏&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0189.zip&quot;&gt;0189.［人物］琥珀少女&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0010.zip&quot;&gt;0010.［人物］查理&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0190.zip&quot;&gt;0190.［人物］提莫&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0011.zip&quot;&gt;0011.快到口袋来&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0191.zip&quot;&gt;0191.［人物］诡计之狼&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0012.zip&quot;&gt;0012.解锁全部人物&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0192.zip&quot;&gt;0192.［人物］蜘蛛人&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0013.zip&quot;&gt;0013.［人物］罪恶少女&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0193.zip&quot;&gt;0193.［人物］远古力量&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0014.zip&quot;&gt;0014.智能锅&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0194.zip&quot;&gt;0194.［人物］圣骑士&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0015.zip&quot;&gt;0015.伤害显示&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0195.zip&quot;&gt;0195.机器人进化&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0016.zip&quot;&gt;0016.死亡不删档&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0196.zip&quot;&gt;0196.［人物］蜘蛛侠&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0017.zip&quot;&gt;0017.圣剑&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0197.zip&quot;&gt;0197.［人物］黑剑使&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0018.zip&quot;&gt;0018.快速工作&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0198.zip&quot;&gt;0198.［人物］灰原哀&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0019.zip&quot;&gt;0019.人工鱼塘&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0199.zip&quot;&gt;0199.［人物］盖伦&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0020.zip&quot;&gt;0020.火神之剑&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0200.zip&quot;&gt;0200.暗影科技&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0021.zip&quot;&gt;0021.霜之哀伤&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0201.zip&quot;&gt;0201.物品无限耐久&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0022.zip&quot;&gt;0022.建筑几何学&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0202.zip&quot;&gt;0202.海上餐厅&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0023.zip&quot;&gt;0023.黄金长矛&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0203.zip&quot;&gt;0203.妖刀红樱&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0024.zip&quot;&gt;0024.鬼屋&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0204.zip&quot;&gt;0204.［人物］海贼王－路飞&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0025.zip&quot;&gt;0025.［人物］海拉&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0205.zip&quot;&gt;0205.［人物］海贼王－艾斯&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0026.zip&quot;&gt;0026.巨型商店&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0206.zip&quot;&gt;0206.［人物］海贼王－索隆&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0027.zip&quot;&gt;0027.猎犬驯服&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0207.zip&quot;&gt;0207.［人物］海贼王－多弗朗明哥&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0028.zip&quot;&gt;0028.［人物］祈妹&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0208.zip&quot;&gt;0208.［人物］海贼王－那美&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0029.zip&quot;&gt;0029.［人物］甜品女仆&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0209.zip&quot;&gt;0209.［人物］海贼王－山治&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0030.zip&quot;&gt;0030.更多地图图标&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0210.zip&quot;&gt;0210.［人物］海贼王－罗&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0031.zip&quot;&gt;0031.地图全开&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0211.zip&quot;&gt;0211.［人物］海贼王－乌索普&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0032.zip&quot;&gt;0032.物品叠加&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0212.zip&quot;&gt;0212.［人物］海贼王－乔巴&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0033.zip&quot;&gt;0033.动漫地皮&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0213.zip&quot;&gt;0213.［人物］蘑菇人&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0034.zip&quot;&gt;0034.大肉雨&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0214.zip&quot;&gt;0214.入侵者&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0035.zip&quot;&gt;0035.［人物］千年狐&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0215.zip&quot;&gt;0215.毁灭战士&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0036.zip&quot;&gt;0036.小地图&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0216.zip&quot;&gt;0216.［人物］黑暗之魂&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0037.zip&quot;&gt;0037.［人物］古明地觉&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0217.zip&quot;&gt;0217.［人物］狂怒的安诺&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0038.zip&quot;&gt;0038.大帐篷&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0218.zip&quot;&gt;0218.七彩萤火虫&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0039.zip&quot;&gt;0039.［人物］孙大圣&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0219.zip&quot;&gt;0219.［人物］冬之公主－雪莉&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0040.zip&quot;&gt;0040.更多存档栏&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0220.zip&quot;&gt;0220.炼金术与科学&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0041.zip&quot;&gt;0041.［人物］涅普迪努&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0221.zip&quot;&gt;0221.三只小猫&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0042.zip&quot;&gt;0042.冰箱永保鲜&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0222.zip&quot;&gt;0222.吃屎&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0043.zip&quot;&gt;0043.烤箱&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0223.zip&quot;&gt;0223.［人物］吾王－Saber&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0044.zip&quot;&gt;0044.蔬菜宠物&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0224.zip&quot;&gt;0224.火山预警&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0045.zip&quot;&gt;0045.便携式烧烤架&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0225.zip&quot;&gt;0225.［人物］王尼玛&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0046.zip&quot;&gt;0046.红胡子海盗团&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0226.zip&quot;&gt;0226.［人物］八云紫&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0047.zip&quot;&gt;0047.矿物再生&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0227.zip&quot;&gt;0227.［人物］八九寺真宵&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0048.zip&quot;&gt;0048.重生凉棚&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0228.zip&quot;&gt;0228.圣诞节套装&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0049.zip&quot;&gt;0049.活着的骷髅&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0229.zip&quot;&gt;0229.［人物］莎莉&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods1/archive/GIT0050.zip&quot;&gt;0050.储物室&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0230.zip&quot;&gt;0230.［人物］普鲁露特&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0051.zip&quot;&gt;0051.［人物］苏曼莎&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0231.zip&quot;&gt;0231.［人物］希瑟&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0052.zip&quot;&gt;0052.疾风之刃&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0232.zip&quot;&gt;0232.老鼠&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0053.zip&quot;&gt;0053.［人物］月影刺客&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0233.zip&quot;&gt;0233.［人物］苏松木&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0054.zip&quot;&gt;0054.［人物］间谍&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0234.zip&quot;&gt;0234.［人物］绅士猎犬&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0055.zip&quot;&gt;0055.树苗&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0235.zip&quot;&gt;0235.［人物］鸟龙弗奇&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0056.zip&quot;&gt;0056.智能灭火器&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0236.zip&quot;&gt;0236.采摘火鸡&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0057.zip&quot;&gt;0057.超级墙&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0237.zip&quot;&gt;0237.［人物］失落的学生&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0058.zip&quot;&gt;0058.剑鱼&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0238.zip&quot;&gt;0238.［人物］铁甲克里斯&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0059.zip&quot;&gt;0059.［人物］风幻龙&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0239.zip&quot;&gt;0239.［人物］白色月姬&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0060.zip&quot;&gt;0060.［人物］耳朵&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0240.zip&quot;&gt;0240.［人物］江之岛盾子&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0061.zip&quot;&gt;0061.传送石&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0241.zip&quot;&gt;0241.新物种&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0062.zip&quot;&gt;0062.猪镇路灯&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0242.zip&quot;&gt;0242.［人物］魏丝雪倪&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0063.zip&quot;&gt;0063.精灵球&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0243.zip&quot;&gt;0243.［人物］龙之德古拉&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0064.zip&quot;&gt;0064.手动围墙门&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0244.zip&quot;&gt;0244.［人物］赤目&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0065.zip&quot;&gt;0065.［人物］骷髅人&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0245.zip&quot;&gt;0245.小花弓&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0066.zip&quot;&gt;0066.［人物］金刚狼&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0246.zip&quot;&gt;0246.烹饪锅皮肤&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0067.zip&quot;&gt;0067.彩色虫洞标记&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0247.zip&quot;&gt;0247.［人物］玉藻&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0068.zip&quot;&gt;0068.［人物］树人&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0248.zip&quot;&gt;0248.［人物］蕾姆&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0069.zip&quot;&gt;0069.［人物］我妻由乃&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0249.zip&quot;&gt;0249.［人物］绫波丽&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0070.zip&quot;&gt;0070.［人物］赵云&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods5/archive/GIT0250.zip&quot;&gt;0250.［人物］卫宫士郎&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0071.zip&quot;&gt;0071.视野增强&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0251.zip&quot;&gt;0251.水果刀&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0072.zip&quot;&gt;0072.豪华营火&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0252.zip&quot;&gt;0252.左轮手枪&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0073.zip&quot;&gt;0073.锤子分解物品&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0253.zip&quot;&gt;0253.赤血利刃&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0074.zip&quot;&gt;0074.蘑菇家族&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0254.zip&quot;&gt;0254.［人物］日番谷冬狮郎&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0075.zip&quot;&gt;0075.［人物］精灵公主&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0255.zip&quot;&gt;0255.［人物］天使之锤萝莉&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0076.zip&quot;&gt;0076.攻击范围显示&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0256.zip&quot;&gt;0256.［人物］古玩研究者－西蒙&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0077.zip&quot;&gt;0077.机器范围显示&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0257.zip&quot;&gt;0257.［人物］海盗狐狸&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0078.zip&quot;&gt;0078.［人物］特顿&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0258.zip&quot;&gt;0258.［人物］科诺&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0079.zip&quot;&gt;0079.［人物］乐园巫女－灵梦&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0259.zip&quot;&gt;0259.［人物］医生&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0080.zip&quot;&gt;0080.Ostux道具包&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0260.zip&quot;&gt;0260.［人物］梦魇少女－澪&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0081.zip&quot;&gt;0081.万圣节&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0261.zip&quot;&gt;0261.［人物］桂雏菊&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0082.zip&quot;&gt;0082.［人物］威廉卡特&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0262.zip&quot;&gt;0262.［人物］阴影剑士&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0083.zip&quot;&gt;0083.人造隧道&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0263.zip&quot;&gt;0263.烦人的老麦&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0084.zip&quot;&gt;0084.切斯特选择&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0264.zip&quot;&gt;0264.武器合集汉化版&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0085.zip&quot;&gt;0085.高级冰箱&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0265.zip&quot;&gt;0265.自动灌溉植物&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0086.zip&quot;&gt;0086.显示眼骨&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0266.zip&quot;&gt;0266.草蜢&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0087.zip&quot;&gt;0087.南瓜领主&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0267.zip&quot;&gt;0267.［人物］布子&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0088.zip&quot;&gt;0088.鱼屋制作&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0268.zip&quot;&gt;0268.兔毫笔&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0089.zip&quot;&gt;0089.聪明伪装&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0269.zip&quot;&gt;0269.黎明&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0090.zip&quot;&gt;0090.［人物］小鱼人沃特Wurt&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0270.zip&quot;&gt;0270.［人物］米扣妹妹&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0091.zip&quot;&gt;0091.［人物］咕噜&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0271.zip&quot;&gt;0271.鼠疫疫苗&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0092.zip&quot;&gt;0092.兔兔女王&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0272.zip&quot;&gt;0272.［人物］杀手艾希斯&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0093.zip&quot;&gt;0093.魔法瓶灯&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0273.zip&quot;&gt;0273.［人物］火焰兵&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0094.zip&quot;&gt;0094.如意棒&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0274.zip&quot;&gt;0274.［人物］莹草&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0095.zip&quot;&gt;0095.［人物］熊猫&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0275.zip&quot;&gt;0275.［人物］贤狼赫萝&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0096.zip&quot;&gt;0096.猪人商店&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0276.zip&quot;&gt;0276.［人物］新月玫瑰&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0097.zip&quot;&gt;0097.大理石豆&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0277.zip&quot;&gt;0277.［人物］朝田诗乃&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0098.zip&quot;&gt;0098.镰刀&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0278.zip&quot;&gt;0278.［人物］烈火之剑－琳&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0099.zip&quot;&gt;0099.虚空剑&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0279.zip&quot;&gt;0279.［人物］古惑狼&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods2/archive/GIT0100.zip&quot;&gt;0100.DYC的传奇武器&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0280.zip&quot;&gt;0280.［人物］藤原妹红&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0101.zip&quot;&gt;0101.［人物］瑟琳娜Selina&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0281.zip&quot;&gt;0281.［人物］英雄晚会&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0102.zip&quot;&gt;0102.［人物］胆小狗Haruz&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0282.zip&quot;&gt;0282.［人物］安洁&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0103.zip&quot;&gt;0103.［人物］猫妹子Sollyz&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0283.zip&quot;&gt;0283.［人物］宠物精灵－银叶&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0104.zip&quot;&gt;0104.［人物］冬狼Mitsuru&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0284.zip&quot;&gt;0284.［人物］罗宾&amp;amp;瑞佛莱&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0105.zip&quot;&gt;0105.［人物］兔娘Faroz&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0285.zip&quot;&gt;0285.［人物］南小鸟&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0106.zip&quot;&gt;0106.［人物］亚索&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0286.zip&quot;&gt;0286.［人物］艾尔菲尔特&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0107.zip&quot;&gt;0107.［人物］流浪的仙人掌&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0287.zip&quot;&gt;0287.［人物］远坂凛&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0108.zip&quot;&gt;0108.灰烬施肥&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0288.zip&quot;&gt;0288.［人物］杏子&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0109.zip&quot;&gt;0109.毒菌蛤蟆&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0289.zip&quot;&gt;0289.［人物］绵月依姬&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0110.zip&quot;&gt;0110.简易血条&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0290.zip&quot;&gt;0290.［人物］蛮王－泰达米尔&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0111.zip&quot;&gt;0111.［人物］凯特琳Caitlin&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0291.zip&quot;&gt;0291.［人物］道士温宇&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0112.zip&quot;&gt;0112.自动清扫器&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0292.zip&quot;&gt;0292.［人物］卡牌魔术师&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0113.zip&quot;&gt;0113.便便发射器&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0293.zip&quot;&gt;0293.［人物］干物妹小埋&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0114.zip&quot;&gt;0114.手电筒&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0294.zip&quot;&gt;0294.［人物］八重樱&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0115.zip&quot;&gt;0115.［人物］猎人&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0295.zip&quot;&gt;0295.［人物］七龙珠－孙悟空&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0116.zip&quot;&gt;0116.花盆&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0296.zip&quot;&gt;0296.［人物］海贼王－尼科罗宾&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0117.zip&quot;&gt;0117.［人物］狼女Wulfe&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0297.zip&quot;&gt;0297.［人物］鸢一折纸&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0118.zip&quot;&gt;0118.花箱&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0298.zip&quot;&gt;0298.［人物］夜刀神十香&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0119.zip&quot;&gt;0119.［人物］蜡烛人&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0299.zip&quot;&gt;0299.［人物］亚丝娜&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0120.zip&quot;&gt;0120.骷髅箱&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods6/archive/GIT0300.zip&quot;&gt;0300.全能信息面板&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0121.zip&quot;&gt;0121.［人物］月兔－乌恩Woon&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0301.zip&quot;&gt;0301.［人物］一拳超人－琦玉&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0122.zip&quot;&gt;0122.服务员101&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0302.zip&quot;&gt;0302.［人物］卡尼猫Carney&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0123.zip&quot;&gt;0123.我可爱的物品&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0303.zip&quot;&gt;0303.［人物］特斯拉&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0124.zip&quot;&gt;0124.高级农场&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0304.zip&quot;&gt;0304.豪华烹饪锅&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0125.zip&quot;&gt;0125.鸟笼更多种子&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0305.zip&quot;&gt;0305.［人物］阴阳师－神乐&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0126.zip&quot;&gt;0126.绿晶石&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0306.zip&quot;&gt;0306.［人物］黑暗之女－安妮&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0127.zip&quot;&gt;0127.吸物箱子&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0307.zip&quot;&gt;0307.圣诞树&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0128.zip&quot;&gt;0128.羽毛农场&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0308.zip&quot;&gt;0308.海难石油版－作废&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0129.zip&quot;&gt;0129.野生动物&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0309.zip&quot;&gt;0309.联机物品皮肤&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0130.zip&quot;&gt;0130.骷髅随从&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0310.zip&quot;&gt;0310.［人物］博丽灵梦&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0131.zip&quot;&gt;0131.［人物］初音未来&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0311.zip&quot;&gt;0311.联机人物皮肤&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0132.zip&quot;&gt;0132.箱子＆垃圾桶&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0312.zip&quot;&gt;0312.［人物］唐僧&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0133.zip&quot;&gt;0133.荧月杖&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0313.zip&quot;&gt;0313.智能对敌&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0134.zip&quot;&gt;0134.大象繁殖&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0314.zip&quot;&gt;0314.生存笔记&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0135.zip&quot;&gt;0135.随从时间&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0315.zip&quot;&gt;0315.蜜蜂女王&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0136.zip&quot;&gt;0136.变身钢铁侠&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0316.zip&quot;&gt;0316.［人物］托托莉尔德&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0137.zip&quot;&gt;0137.曼德拉树&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0317.zip&quot;&gt;0317.可杀猪王&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0138.zip&quot;&gt;0138.制冰机&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0318.zip&quot;&gt;0318.智能小木牌&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0139.zip&quot;&gt;0139.敌我标记&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0319.zip&quot;&gt;0319.我的宠物&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0140.zip&quot;&gt;0140.龙鳞火炉&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0320.zip&quot;&gt;0320.骑牛&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0141.zip&quot;&gt;0141.［人物］暖熊WarmBear&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0321.zip&quot;&gt;0321.蔬菜园&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0142.zip&quot;&gt;0142.［人物］铃仙&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0322.zip&quot;&gt;0322.种植机器人&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0143.zip&quot;&gt;0143.［人物］爱丽丝Alice&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0323.zip&quot;&gt;0323.［人物］死神&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0144.zip&quot;&gt;0144.增加奇遇&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0324.zip&quot;&gt;0324.维多利亚风格&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0145.zip&quot;&gt;0145.连体灭火器&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0325.zip&quot;&gt;0325.衣柜换装&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0146.zip&quot;&gt;0146.人形玩偶&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0326.zip&quot;&gt;0326.怪物料理&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0147.zip&quot;&gt;0147.蛛丝蠕虫&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0327.zip&quot;&gt;0327.［人物］娜娜奇&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0148.zip&quot;&gt;0148.便便药&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0328.zip&quot;&gt;0328.［人物］舰娘－雷&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0149.zip&quot;&gt;0149.熊怪伙伴&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0329.zip&quot;&gt;0329.［人物］炮姐&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods3/archive/GIT0150.zip&quot;&gt;0150.烤肉可晾干&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0330.zip&quot;&gt;0330.［人物］傀儡师&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0151.zip&quot;&gt;0151.［人物］昆虫博士&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0331.zip&quot;&gt;0331.G10MM－3R&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0152.zip&quot;&gt;0152.［人物］异形&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0332.zip&quot;&gt;0332.洒水机&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0153.zip&quot;&gt;0153.［人物］雨女&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0333.zip&quot;&gt;0333.［人物］神话书说&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0154.zip&quot;&gt;0154.保险箱Safe&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0334.zip&quot;&gt;0334.［人物］2B小姐姐&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0155.zip&quot;&gt;0155.发电机Generator&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0335.zip&quot;&gt;0335.［人物］恶魔人Wortox&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0156.zip&quot;&gt;0156.轨道车RailCart&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0336.zip&quot;&gt;0336.［人物］法华林&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0157.zip&quot;&gt;0157.自动重置陷阱&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0337.zip&quot;&gt;0337.［人物］蜜蜂人&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0158.zip&quot;&gt;0158.驯服高鸟&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0338.zip&quot;&gt;0338.事件计时器&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0159.zip&quot;&gt;0159.填海草叉&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0339.zip&quot;&gt;0339.重选人物&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0160.zip&quot;&gt;0160.噩梦铃铛&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0340.zip&quot;&gt;0340.田园风格&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0161.zip&quot;&gt;0161.传送木牌&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0341.zip&quot;&gt;0341.生物指示器&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0162.zip&quot;&gt;0162.移除梦魇画面&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0342.zip&quot;&gt;0342.木栅栏＆木门&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0163.zip&quot;&gt;0163.BOSS数据调整&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0343.zip&quot;&gt;0343.［人物］赫默Silence&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0164.zip&quot;&gt;0164.有排场的猪王&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0344.zip&quot;&gt;0344.［人物］薇诺娜Winona&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0165.zip&quot;&gt;0165.魔法号角&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0345.zip&quot;&gt;0345.哈姆雷特扩展&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0166.zip&quot;&gt;0166.增强农业－锄头&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0346.zip&quot;&gt;0346.［人物］妖刀姬&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0167.zip&quot;&gt;0167.荒岛－测试版&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0347.zip&quot;&gt;0347.［人物］薇尔芭Wilba&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0168.zip&quot;&gt;0168.建筑无间隔&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0348.zip&quot;&gt;0348.［人物］沃姆伍德Wormwood&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0169.zip&quot;&gt;0169.板砖&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0349.zip&quot;&gt;0349.［人物］大发明家Wagstaff&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0170.zip&quot;&gt;0170.灭虫器&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods7/archive/GIT0350.zip&quot;&gt;0350.工具人逊尔薇&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0171.zip&quot;&gt;0171.水下世界&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0351.zip&quot;&gt;0351.［人物］小羊Ringo&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0172.zip&quot;&gt;0172.从箱子里制作&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0352.zip&quot;&gt;0352.［人物］小狗Hachi&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0173.zip&quot;&gt;0173.从箱子里查找&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0353.zip&quot;&gt;0353.［人物］UMP40&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0174.zip&quot;&gt;0174.永久跟随&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0354.zip&quot;&gt;0354.［人物］鬼灭之刃&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0175.zip&quot;&gt;0175.强制生物群落&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0355.zip&quot;&gt;0355.［人物］林肯布猫&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0176.zip&quot;&gt;0176.［人物］龙宫礼奈&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0356.zip&quot;&gt;0356.［人物］女探险家－薇勒尔Wheeler&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0177.zip&quot;&gt;0177.阴影怪&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0357.zip&quot;&gt;0357.情人节的传奇礼物&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0178.zip&quot;&gt;0178.［人物］维纳斯&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0358.zip&quot;&gt;0358.［人物］宝石萝莉－翼语&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0179.zip&quot;&gt;0179.［人物］雨衣&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0359.zip&quot;&gt;0359.［人物］宝石萝莉－补丁&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods4/archive/GIT0180.zip&quot;&gt;0180.打包魔杖&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ghproxy.com/https://github.com/cnzixn/bmsh-mods8/archive/GIT0360.zip&quot;&gt;0360.手柄操作优化&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;span class=&quot;c&quot;&gt;# 其它&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls &lt;/span&gt;other&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;/game/2021/11/11/dont-starve-logs.html&quot;&gt;[更新日志]&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/game/2021/11/11/dont-starve-0000.html&quot;&gt;[兔人优化包]&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="game" /><summary type="html"># 声明 $ cat statement</summary></entry><entry><title type="html">文件更新日志</title><link href="http://618.sh/game/2021/11/11/dont-starve-logs.html" rel="alternate" type="text/html" title="文件更新日志" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-logs</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-logs.html">&lt;p&gt;21.10.23　0000　优化使用冰扑灭火操作(冰可在物品栏直接使用)&lt;/p&gt;
+
+&lt;p&gt;21.10.18　0000　三维动态：显示出血量、饥饿、精神增加(绿色)或减少(红色)的数值&lt;/p&gt;
+
+&lt;p&gt;21.10.02　0000　建造清单：一共十个栏位，可将建造配方添加到屏幕上以便快捷建造&lt;/p&gt;
+
+&lt;p&gt;21.09.29　0000　条件反射：新增连续“存放”和“取出”的操作&lt;/p&gt;
+
+&lt;p&gt;21.09.26　0000　手柄模式：可设置启用/禁用手柄控制(默认禁用)&lt;/p&gt;
+
+&lt;p&gt;21.09.04　0000　垃圾清除：超出‘上限’的物品会在 200s 后被清除；被丢弃的物品会在100s后被清除；容器中的物品不会被清除(拾取物品可以阻止被清除)&lt;/p&gt;
+
+&lt;p&gt;21.09.04　0000　条件反射：连续拾取 2 个相同物品，则会继续拾取此种物品(不会拾取其他物品)&lt;/p&gt;
+
+&lt;p&gt;21.07.04　0000　烹饪大师：修复使用过程中可能导致游戏闪退的问题&lt;/p&gt;
+
+&lt;p&gt;21.02.16　0000　条件反射：优化丢弃动作的触发条件&lt;/p&gt;
+
+&lt;p&gt;21.02.07　0318　可设置显示/隐藏人物靠近箱子时的提示文字&lt;/p&gt;
+
+&lt;p&gt;21.02.06　0000　修复部分(联机)模组放置建筑时不显示虚影的问题&lt;/p&gt;
+
+&lt;p&gt;21.02.01　0318　修复鼹鼠可以偷走小木牌上物品的问题&lt;/p&gt;
+
+&lt;p&gt;21.02.01　0000　优化“自动合并”判定条件(优先将远处合并到近处)&lt;/p&gt;
+
+&lt;p&gt;21.01.31　0000　烹饪大师：使用烹饪锅会记住用过的食材，下次烹饪时可快速填充&lt;/p&gt;
+
+&lt;p&gt;21.01.29　0164　模组变更为“有排场的猪王”&lt;/p&gt;
+
+&lt;p&gt;21.01.29　0162　模组变更为“移除梦魇画面”&lt;/p&gt;
+
+&lt;p&gt;21.01.22　0000　优化对地皮的挖、放置操作(草叉，地皮可在物品栏直接使用)&lt;/p&gt;
+
+&lt;p&gt;21.01.14　0332　优化洒水机寻找附近水源的代码&lt;/p&gt;
+
+&lt;p&gt;20.12.25　0000　条件反射：会记住特定动作并一直重复进行该动作&lt;/p&gt;
+
+&lt;p&gt;20.12.10　0160　模组变更为“噩梦铃铛MiseryBell”&lt;/p&gt;
+
+&lt;p&gt;20.12.10　0000　批量制作：修复物品会在世界原点复制一份的问题&lt;/p&gt;
+
+&lt;p&gt;20.12.10　0000　对齐网格：修复制作建筑后再制作非建筑物品会移动到上次位置的问题&lt;/p&gt;
+
+&lt;p&gt;20.11.30　0000　自动钓鱼：开始钓鱼后，会自动完成抛竿、收杆动作&lt;/p&gt;
+
+&lt;p&gt;20.11.30　0183　“打包纸”模组代码文件更新为官方版本&lt;/p&gt;
+
+&lt;p&gt;20.11.29　0156　模组变更为“轨道车RailCart”&lt;/p&gt;
+
+&lt;p&gt;20.11.29　0155　模组变更为“发电机Generator”&lt;/p&gt;
+
+&lt;p&gt;20.11.29　0154　模组变更为“保险箱Safe”&lt;/p&gt;
+
+&lt;p&gt;20.11.23　0000　条件反射：修复狗牙陷阱、蜜蜂地雷无法自动放置的问题&lt;/p&gt;
+
+&lt;p&gt;20.11.19　0000　对齐网格：修复物品从建造栏直接放置无法对齐的问题&lt;/p&gt;
+
+&lt;p&gt;20.11.06　0000　对齐网格：修复’findFloodGridNum’(a nil value)的问题&lt;/p&gt;
+
+&lt;p&gt;20.11.05　0000　“查看血量”更新为“查看状态”；“自动合并”优化判定条件&lt;/p&gt;
+
+&lt;p&gt;20.11.04　0153　修复雨女理智过低不会“召唤”青蛙雨的问题&lt;/p&gt;
+
+&lt;p&gt;20.11.03　0143　修复玩偶(角色)移动速度不正常的问题&lt;/p&gt;
+
+&lt;p&gt;20.11.03　0000　修复鹦鹉船(海洋财宝)附近地面破碎的问题&lt;/p&gt;
+
+&lt;p&gt;20.10.29　0067　“彩色虫洞标记”模组更新为1.2.3版(可标记“电光三角”)&lt;/p&gt;
+
+&lt;p&gt;20.10.29　0156　修复不能制作魔法书的问题&lt;/p&gt;
+
+&lt;p&gt;20.10.29　0098　修复带“打工仔”砍竹子、藤蔓会崩溃的问题&lt;/p&gt;
+
+&lt;p&gt;20.10.28　0000　对齐网格：修复部分物品不能“栽种”的问题&lt;/p&gt;
+
+&lt;p&gt;20.10.28　0148　“便便药”更改配方(1烤种子+1灰烬)&lt;/p&gt;
+
+&lt;p&gt;20.10.28　0147　“蛛丝蠕虫”模组更新为2.1版&lt;/p&gt;
+
+&lt;p&gt;20.10.28　0146　模组变更为“人形玩偶”&lt;/p&gt;
+
+&lt;p&gt;20.10.28　0145　模组变更为“连体灭火器”&lt;/p&gt;
+
+&lt;p&gt;20.10.27　0143　模组变更为“(人物)爱丽丝Alice”&lt;/p&gt;
+
+&lt;p&gt;20.10.27　0062　模组变更为“猪镇路灯”&lt;/p&gt;
+
+&lt;p&gt;20.10.24　0000　截图模式：人物静止5秒隐藏HUD，人物静止1秒显示HUD。&lt;/p&gt;
+
+&lt;p&gt;20.10.17　0000　缝缝补补：(可修复的)衣服帽子耐久为5s时会自动脱下。&lt;/p&gt;
+
+&lt;p&gt;20.10.16　0000　修复自动合并会打断条件反射(拾取动作)的问题&lt;/p&gt;
+
+&lt;p&gt;20.10.16　0000　对齐网格：建造栽种时会自动对齐到网格，方便触发条件反射。&lt;/p&gt;
+
+&lt;p&gt;20.10.14　0000　字体大小：调整游戏中所有字体的大小&lt;/p&gt;
+
+&lt;p&gt;20.10.13　0140　模组变更为“龙鳞火炉”&lt;/p&gt;
+
+&lt;p&gt;20.10.13　0139　模组变更为“敌我标记”&lt;/p&gt;
+
+&lt;p&gt;20.10.13　0018　“快速工作”模组更新为2020版本&lt;/p&gt;
+
+&lt;p&gt;20.10.04　0000　修复连接手柄不能使用“挂机保护”的问题。&lt;/p&gt;
+
+&lt;p&gt;20.09.30　0000　加速砍挖：加速使用斧头、砍刀、镐子动作。&lt;/p&gt;
+
+&lt;p&gt;20.09.30　0358　解决穿越后技能按钮消失的问题。&lt;/p&gt;
+
+&lt;p&gt;20.09.29　0000　她回来了：阿比盖尔死亡后自动回到物品栏(有个小彩蛋)。&lt;/p&gt;
+
+&lt;p&gt;20.09.28　0141　模组变更为“(人物)暖熊WarmBear”&lt;/p&gt;
+
+&lt;p&gt;20.09.28　0000　挂机保护：检测到挂机行为(15S无任何操作)则自动保存并暂停游戏&lt;/p&gt;
+
+&lt;p&gt;20.09.28　0000　垃圾清除：给世界中所有物品设置一个数量限定值，超出限定值的物品会被移除。(可自行修改配置文件maxprefabs.lua)&lt;/p&gt;
+
+&lt;p&gt;20.09.28　0000　视角切换：添加视角向左、向右旋转按钮。&lt;/p&gt;
+
+&lt;p&gt;20.09.28　0000　移除树桩：修复无法种植竹子的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.27　0113　修复灭火器发射雪球异常的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.27　0112　修复灭火器发射雪球异常的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.24　0138　修复“制冰机”配方问题&lt;/p&gt;
+
+&lt;p&gt;20.09.24　0134　修复“大象繁殖”开启后闪退的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.24　0000　空格保留：装备物品时会记录物品“原位置”，捡的新物品不会占用“已记录的位置”&lt;/p&gt;
+
+&lt;p&gt;20.09.23　0133　模组变更为“荧月杖”&lt;/p&gt;
+
+&lt;p&gt;20.09.22　0131　修复“初音未来”无法使用技能的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.20　0000　移除树桩：玩家附近的树桩会被自动移除(掉落1木头)。&lt;/p&gt;
+
+&lt;p&gt;20.09.19　0125　修复模组不兼容“野生动物”的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.19　0129　模组变更为“野生动物”&lt;/p&gt;
+
+&lt;p&gt;20.09.18　0128　模组变更为“羽毛农场”&lt;/p&gt;
+
+&lt;p&gt;20.09.18　0003　删除人物附近生物显示攻击/血量的文字信息&lt;/p&gt;
+
+&lt;p&gt;20.09.17　0114　修复’lootdropper’(a nil value)的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.16　0127　模组变更为“吸物箱子”&lt;/p&gt;
+
+&lt;p&gt;20.09.15　0126　模组变更为“绿晶石”&lt;/p&gt;
+
+&lt;p&gt;20.09.15　0125　“鸟笼更多种子”更新为3.1.1版本&lt;/p&gt;
+
+&lt;p&gt;20.09.15　0122　“服务员101”更新为6.60版本&lt;/p&gt;
+
+&lt;p&gt;20.09.15　0121　模组变更为“(人物)月兔-乌恩Woon”&lt;/p&gt;
+
+&lt;p&gt;20.09.14　0120　修复“骷髅箱”配方问题&lt;/p&gt;
+
+&lt;p&gt;20.09.14　0119　修复蜡烛人“发烧”、冬天会冷的问题。&lt;/p&gt;
+
+&lt;p&gt;20.09.13　0118　模组变更为“花箱”&lt;/p&gt;
+
+&lt;p&gt;20.09.13　0300　修复设置关闭悬停文本会导致按钮不显字问题。&lt;/p&gt;
+
+&lt;p&gt;20.09.13　0100　修复设置关闭悬停文本会导致按钮不显字问题。&lt;/p&gt;
+
+&lt;p&gt;20.09.13　0117　模组变更为“狼女”，更新至3.0版本&lt;/p&gt;
+
+&lt;p&gt;20.09.13　0116　“花盆”更新为1.1版本，可以产生蝴蝶、吸引萤火虫。&lt;/p&gt;
+
+&lt;p&gt;20.09.13　0115　“猎人”更新为3.4版本&lt;/p&gt;
+
+&lt;p&gt;20.09.12　0076　修复’sg’(a nil value)的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.11　0114　“手电筒”更新为1.2.1版本&lt;/p&gt;
+
+&lt;p&gt;20.09.11　0113　模组变更为“便便发射器”&lt;/p&gt;
+
+&lt;p&gt;20.09.11　0112　模组变更为“自动清扫器”&lt;/p&gt;
+
+&lt;p&gt;20.09.11　0111　修复“凯特琳”装备专属物品崩溃的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.11　0110　模组变更为“简易血条”&lt;/p&gt;
+
+&lt;p&gt;20.09.11　0109　修复毒菌蛤蟆在世界中无法生成的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.10　0108　修复灰烬不能给咖啡树施肥的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.05　0106　“亚索”更新为1.70版本&lt;/p&gt;
+
+&lt;p&gt;20.09.03　0101　修复连续射箭会出错的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.02　0101　模组变更为“瑟琳娜Selina”&lt;/p&gt;
+
+&lt;p&gt;20.09.02　0076　修复’HasTag’(a nil value)的问题&lt;/p&gt;
+
+&lt;p&gt;20.09.01　0100　模组变更为“DYC的传奇武器”&lt;/p&gt;
+
+&lt;p&gt;20.08.27　0095　模组变更为“熊猫”&lt;/p&gt;
+
+&lt;p&gt;20.08.24　0309　修复放置“管道栅栏”会崩溃的问题&lt;/p&gt;
+
+&lt;p&gt;20.08.23　0093　“魔法瓶灯”更新为1.14版本&lt;/p&gt;
+
+&lt;p&gt;20.08.23　0000　修复坐船不能从箱子“取出”物品的问题&lt;/p&gt;
+
+&lt;p&gt;20.08.21　0313　修复模组启用后不生效的问题&lt;/p&gt;
+
+&lt;p&gt;20.08.11　0086　优化“眼骨”、“鱼骨”图标显示代码&lt;/p&gt;
+
+&lt;p&gt;20.08.10　0085　修复“高级冰箱”配方问题&lt;/p&gt;
+
+&lt;p&gt;20.08.10　0083　修复“隧道”不能正常使用的问题&lt;/p&gt;
+
+&lt;p&gt;20.08.10　0082　修复“威廉卡特”部分物品配方问题&lt;/p&gt;
+
+&lt;p&gt;20.08.09　0360　修复关于helphint的错误问题&lt;/p&gt;
+
+&lt;p&gt;20.08.09　0080　“Ostux道具包”更新为2.0版本&lt;/p&gt;
+
+&lt;p&gt;20.08.08　0072　“豪华营火”更新为2.13版本&lt;/p&gt;
+
+&lt;p&gt;20.08.07　0065　“骷髅人”更新为2.3版本&lt;/p&gt;
+
+&lt;p&gt;20.07.25　0006　“鱼缸”更新，可以用木桶装水倒进鱼缸，可以养青蛙、热带鱼、大眼鱼&lt;/p&gt;
+
+&lt;p&gt;20.07.22　0076　修复不显示攻击范围的问题&lt;/p&gt;
+
+&lt;p&gt;20.07.21　0300　修复“全能信息面板”不兼容某些模组的问题。&lt;/p&gt;
+
+&lt;p&gt;20.07.20　0000　更新模组0001、0076、0077、0300，新增模组0351～0360。&lt;/p&gt;
+
+&lt;p&gt;20.07.19　0319　模组变更为“我的宠物”，在巢穴旁点击宠物、喂食失败料理可弃养&lt;/p&gt;
+
+&lt;p&gt;20.07.10　0000　修复精灵公主拾取专属箱子会崩溃的问题&lt;/p&gt;
+
+&lt;p&gt;20.06.29　0318　模组变更为“智能小木牌”，修复自动画画功能&lt;/p&gt;
+
+&lt;p&gt;20.06.23　0000　新增6种官方“背景图片”供选择，新用户vip试用时间变更为7天&lt;/p&gt;
+
+&lt;p&gt;20.06.21　0000　新增“卡顿清理”(游戏延迟过高时自动清理一些物品)&lt;/p&gt;
+
+&lt;p&gt;20.06.20　0000　优化“自动合并”判定条件，优化移动轮盘触发条件&lt;/p&gt;
+
+&lt;p&gt;20.06.17　0000　优化“自动合并”、“自动拾取(陷阱)”的判定条件&lt;/p&gt;
+
+&lt;p&gt;20.06.12　0157　自动重置陷阱兼容(普通)陷阱、捕鸟陷阱&lt;/p&gt;
+
+&lt;p&gt;20.06.07　0000　新增“自动合并”(人物附近的物品自动合并)&lt;/p&gt;
+
+&lt;p&gt;20.06.06　0157　“自动重置陷阱”更新，兼容蜂刺陷阱、荆棘陷阱&lt;/p&gt;
+
+&lt;p&gt;20.06.05　0320　优化“骑牛”的UI界面、修复牛点头的问题&lt;/p&gt;
+
+&lt;p&gt;20.06.04　0000　优化条件反射触发连续“给予”的条件&lt;/p&gt;
+
+&lt;p&gt;20.06.04　0000　快速装备限定为不使用背包里的物品&lt;/p&gt;
+
+&lt;p&gt;20.06.01　0000　修复冰箱、烹饪锅交换物品会消失的问题&lt;/p&gt;
+
+&lt;p&gt;20.06.01　0000　新增“对齐种植”(种植时会自动对齐到网格)&lt;/p&gt;
+
+&lt;p&gt;20.06.01　0000　模组“兔人优化包”编号变更为0000&lt;/p&gt;
+
+&lt;p&gt;20.05.29　0000　修复开启“快速装备”带锤子不能上船的问题&lt;/p&gt;
+
+&lt;p&gt;20.05.29　0300　模组变更为“机器范围显示”&lt;/p&gt;
+
+&lt;p&gt;20.05.24　0300　删除“格子保留”功能&lt;/p&gt;
+
+&lt;p&gt;20.05.24　0300　模组变更为“兔人优化包”&lt;/p&gt;
+
+&lt;p&gt;20.05.23　0098　修复未来镰刀配方错误的问题&lt;/p&gt;
+
+&lt;p&gt;20.05.23　0000　新增条件反射、快速装备、平板模式等功能&lt;/p&gt;
+
+&lt;p&gt;20.04.21　0130　修复无法使用砍刀的问题&lt;/p&gt;
+
+&lt;p&gt;20.04.20　0090　模组变更为“小鱼人沃特Wurt”&lt;/p&gt;
+
+&lt;p&gt;20.04.20　0016　“死亡不删档”更新为1.4.1版本&lt;/p&gt;
+
+&lt;p&gt;20.04.17　0054　修正文件上传错误的问题&lt;/p&gt;
+
+&lt;p&gt;20.04.17　0053　修正文件上传错误的问题&lt;/p&gt;
+
+&lt;p&gt;20.04.17　0050　修正文件上传错误的问题&lt;/p&gt;
+
+&lt;p&gt;20.04.06　0300　新增“快速装备”、“格子保留”功能&lt;/p&gt;
+
+&lt;p&gt;20.04.06　0105　模组变更为“兔娘Faroz”&lt;/p&gt;
+
+&lt;p&gt;20.04.06　0104　模组变更为“冬狼Mitsuru”&lt;/p&gt;
+
+&lt;p&gt;20.04.06　0103　模组变更为“猫妹子Sollyz”&lt;/p&gt;
+
+&lt;p&gt;20.04.06　0102　模组变更为“胆小狗Haruz”&lt;/p&gt;
+
+&lt;p&gt;20.04.06　0054　模组变更为“间谍”&lt;/p&gt;
+
+&lt;p&gt;20.04.06　0053　模组变更为“月影刺客”&lt;/p&gt;
+
+&lt;p&gt;20.04.05　0050　模组变更为“储物室”&lt;/p&gt;
+
+&lt;p&gt;20.04.05　0338　模组变更为“事件计时器”&lt;/p&gt;
+
+&lt;p&gt;20.04.03　0167　模组变更为“荒岛”&lt;/p&gt;
+
+&lt;p&gt;20.04.01　0000　新增导入导出存档、自定义背景功能&lt;/p&gt;
+
+&lt;p&gt;20.03.26　0309　修复使用装饰盒崩溃的问题&lt;/p&gt;
+
+&lt;p&gt;20.03.26　0340　修复田园风格配方问题&lt;/p&gt;
+
+&lt;p&gt;20.03.26　0019　修复鱼农场不能制作的问题&lt;/p&gt;
+
+&lt;p&gt;20.03.25　0084　“切斯特选择”更新为1.4版本&lt;/p&gt;
+
+&lt;p&gt;20.03.23　0040　修复更多存档栏进入存档崩溃的问题&lt;/p&gt;
+
+&lt;p&gt;20.03.21　0124　“高级农场”更新为3.0版本&lt;/p&gt;
+
+&lt;p&gt;20.03.21　0074　“蘑菇家族”更新为2.5.1版本&lt;/p&gt;
+
+&lt;p&gt;20.03.20　0059　“风幻龙”更新为1.7.8版本&lt;/p&gt;
+
+&lt;p&gt;20.03.20　0000　修复模组配置界面无法翻页的问题&lt;/p&gt;
+
+&lt;p&gt;20.03.20　0025　修复海拉启用后游戏卡死的问题&lt;/p&gt;
+
+&lt;p&gt;20.03.19　0072　修复豪华营火模组配方问题&lt;/p&gt;
+
+&lt;p&gt;20.03.19　0038　修复大帐篷配方问题&lt;/p&gt;
+
+&lt;p&gt;20.03.19　0000　修复箱子界面显示不全的问题&lt;/p&gt;
+
+&lt;p&gt;20.03.16　0309　修复冰箱、炼金引擎皮肤崩溃的问题&lt;/p&gt;
+
+&lt;p&gt;20.03.15　0309　“联机物品皮肤”更新为1.8.2版本&lt;/p&gt;
+
+&lt;p&gt;20.03.15　0322　修复种植机器人格子显示不全的问题&lt;/p&gt;
+
+&lt;p&gt;20.03.15　0318　新增“智能迷你标牌”的自动画画功能&lt;/p&gt;
+
+&lt;p&gt;20.03.14　0000　修复“释放法术”音效错乱的问题&lt;/p&gt;
+
+&lt;p&gt;20.03.14　0348　沃姆伍德新增武器藤杖(Rattan)&lt;/p&gt;
+
+&lt;p&gt;20.03.14　0333　修复白骨夫人锁定物品栏的相关问题&lt;/p&gt;</content><author><name></name></author><category term="game" /><summary type="html">21.10.23　0000　优化使用冰扑灭火操作(冰可在物品栏直接使用)</summary></entry><entry><title type="html">兔人优化包</title><link href="http://618.sh/game/2021/11/11/dont-starve-0000.html" rel="alternate" type="text/html" title="兔人优化包" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-0000</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-0000.html">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#背景图片：设置主界面背景图，自定义可以替换文件bmbackground.tex。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#字体大小：调整游戏中所有字体的大小。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#平板模式：大屏手机开启后更方便游戏操作。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#视角切换：添加视角向左、向右旋转按钮。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#截图模式：人物静止5秒隐藏HUD，人物静止1秒显示HUD。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#阿比盖尔：阿比盖尔死亡后自动回到物品栏。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#查看状态：对物品进行“查看”动作时，会额外显示一行“血量”或“燃料”信息。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#三维动态：动态显示出血量、饥饿、精神增加(绿色)或减少(红色)的数值。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;#缝缝补补：(可修复的)衣服帽子耐久为5s时会自动脱下。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*挂机保护：30S无任何操作则自动保存并暂停游戏。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*垃圾清除：世界中的物品超出“限定数量”会被清除，可以在文件maxprefabs.lua中修改限定数量。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*丢弃取出：物品栏(不含背包)新增“丢弃”动作，容器新增“取出”动作(不会取出到背包)。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*跳跃围墙：围墙添加“跳跃”动作，方便玩家进入“养殖场”。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*对齐网格：建造栽种时会自动对齐到网格，方便触发行为记忆。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*四十五格：物品栏可以设置为25、45格，可以通过按钮显示/隐藏。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*快速装备：屏幕点击(或手柄查看)物品(树、石、池塘等)时自动装备所需工具(忽略背包中工具)。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*空格保留：装备物品时会记录物品“原位置”，捡的新物品不会占用“已记录的位置”。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*自动合并：玩家附近的可堆叠物品自动合并到一起(单个物品、玩家脚下的物品不合并)。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*条件反射：会记住特定动作并一直重复进行该动作。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[强行停止]：人物“移动”可强行停止当前重复的动作。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[使用工具]：检测范围5；使用斧子、镐子、铲子、砍刀、镰刀、锄头。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[采摘拾取]：检测范围5；主要用于采摘移植的作物、拾取便便等(不会拾取花、陷阱、笼中鸟等)。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[刮毛晾肉]：检测范围15；刮牛毛；晾干肉。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[施肥播种]：检测范围15；植物施肥；农场播种。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[重置陷阱]：检测范围15；重置犬牙、蜂刺、荆棘陷阱。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[添加燃料]：火坑、提灯、灭火器、矿工帽等添加燃料。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[烹饪给予]：烹饪食物；物品给予；升级装备。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[批量制作]：制作陷阱、小物品(可堆叠的物品)。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[建造栽种]：建造、栽种、铲地、铺地等，若第1次、第2次操作的距离为最小间隔时，会以第1次为起点，朝第2次的方向继续该操作。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[丢弃树种]：丢弃1个松果、橡果、椰子(将1个可堆叠物移动出物品栏丢弃，可触发“建造栽种”的效果)。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[摧毁沙堆]：使用铲子挖完沙堆后，自动用手摧毁沙堆。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　[自动钓鱼]：开始钓鱼后，会自动完成抛竿、收杆动作。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*移除树桩：玩家附近的树桩会被自动“铲掉”(自己铲掉自己，掉落1木头)。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*加速砍挖：加速使用斧头、砍刀、镐子动作。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*烹饪大师：使用烹饪锅会记住用过的食材，下次烹饪时可快速填充&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*火焰蔓延：火焰蔓延时会先冒烟，一段时间后才会着火。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他优化：&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　优化轮盘触发条件。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　优化物品栏数字大小。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　优化制作栏手柄控制。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　角色界面添加“解锁”按钮。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　讣告界面添加“清空”按钮。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　修复猎犬时间错乱的问题。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　草叉添加物品栏动作“挖”。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　地皮添加物品栏动作“放置”。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　游戏内部可导入备份的存档。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　优化动作按钮，不可攻击空气。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　修复浆果帽子不能使用的问题。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　修复蜗牛护甲不能使用的问题。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　石虾不在洞穴时移除生育能力。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　灭火器不扑灭玩家建造的火堆。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　修复施法音效无限播放的问题。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　支持控制台、传送木牌等文字输入。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　启动游戏可备份游戏数据(包括存档)。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　修复冰箱、烹饪锅交换物品会消失的问题。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　渡渡鸟数量少于两只时建造的鸟巢会有蛋。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;　更多优化功能，只要你能想到，我尽量做到。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="game" /><summary type="html">#背景图片：设置主界面背景图，自定义可以替换文件bmbackground.tex。 #字体大小：调整游戏中所有字体的大小。 #平板模式：大屏手机开启后更方便游戏操作。 #视角切换：添加视角向左、向右旋转按钮。 #截图模式：人物静止5秒隐藏HUD，人物静止1秒显示HUD。 #阿比盖尔：阿比盖尔死亡后自动回到物品栏。</summary></entry><entry><title type="html">jekyll-theme-console</title><link href="http://618.sh/other/2021/11/06/jekyll-theme-console.html" rel="alternate" type="text/html" title="jekyll-theme-console" /><published>2021-11-06T12:00:00+08:00</published><updated>2021-11-06T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/06/jekyll-theme-console</id><content type="html" xml:base="http://618.sh/other/2021/11/06/jekyll-theme-console.html">&lt;h1 id=&quot;jekyll-theme-console&quot;&gt;jekyll-theme-console&lt;/h1&gt;
+
+&lt;p&gt;A jekyll theme with inspiration from linux consoles for hackers, developers and script kiddies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenrec-dark.gif&quot; width=&quot;550&quot; title=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://b2a3e8.github.io/jekyll-theme-console-demo-dark/&quot;&gt;dark style&lt;/a&gt; (&lt;a href=&quot;https://github.com/b2a3e8/jekyll-theme-console-demo-dark&quot;&gt;source code&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://b2a3e8.github.io/jekyll-theme-console-demo-dark/&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-dark.png&quot; width=&quot;350&quot; title=&quot;Screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://b2a3e8.github.io/jekyll-theme-console-demo-light/&quot;&gt;light style&lt;/a&gt; (&lt;a href=&quot;https://github.com/b2a3e8/jekyll-theme-console-demo-light&quot;&gt;source code&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://b2a3e8.github.io/jekyll-theme-console-demo-light/&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-light.png&quot; width=&quot;350&quot; title=&quot;Screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/&quot;&gt;hacker style&lt;/a&gt; (&lt;a href=&quot;https://github.com/b2a3e8/jekyll-theme-console-demo-hacker&quot;&gt;source code&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-hacker.png&quot; width=&quot;350&quot; title=&quot;Screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;First, follow the steps in &lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;this Quickstart Guide&lt;/a&gt; if you’re starting with Jekyll from scratch. Skip this if you already have an existing jekyll project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;You can also use the &lt;a href=&quot;https://b2a3e8.github.io/jekyll-theme-console-demo-dark/&quot;&gt;demo site’s source code&lt;/a&gt; as template for an easy start.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;remote-theme-method-for-github-pages&quot;&gt;Remote theme method for GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;Use this method for sites hosted with GitHub Pages only. To install:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;remote_theme&lt;/code&gt; in your project’s Jekyll &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file:&lt;/p&gt;
+
+    &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;remote_theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;b2a3e8/jekyll-theme-console&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;gem-based-method&quot;&gt;Gem-based method&lt;/h3&gt;
+
+&lt;p&gt;With Gem-based themes, directories such as the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt; are stored in the theme’s gem, hidden from your immediate view. Yet all of the necessary directories will be read and processed during Jekyll’s build process.&lt;/p&gt;
+
+&lt;p&gt;This allows for easier installation and updating as you don’t have to manage any of the theme files. To install:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add this line to your Jekyll site’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;:&lt;/p&gt;
+
+    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll-theme-console&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fetch and update bundled gems by running the following &lt;a href=&quot;http://bundler.io/&quot;&gt;Bundler&lt;/a&gt; command:&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme&lt;/code&gt; in your project’s Jekyll &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file:&lt;/p&gt;
+
+    &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-theme-console&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To update the theme run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+
+&lt;h3 id=&quot;_configyaml&quot;&gt;_config.yaml&lt;/h3&gt;
+
+&lt;p&gt;In addition to jekyll’s default configuration options, you can provide:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header_pages&lt;/code&gt; to specify which pages should be displayed in navbar&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;footer&lt;/code&gt; string, which will be inserted on the end of the page (doesn’t support markup, but html)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;google_analytics&lt;/code&gt; tracking id (tracking will be enabled only in production environments and only if you set this option, no Google Analytics code will be loaded if you don’t set this option)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;listen_for_clients_preferred_style&lt;/code&gt; boolean, used to allow users to choose light or dark style based on their preferences (mostly affected by OS dark or light theme, details see https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;style&lt;/code&gt; to specify which predefined style (colors) should be used&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;header_pages&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;index.md&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;about.md&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# dark (default), light or hacker&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;listen_for_clients_preferred_style&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# false (default) or true&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;footer&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;follow&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;us&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;lt;a&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;href=&quot;https://twitter.com/xxx&quot;&amp;gt;twitter&amp;lt;/a&amp;gt;&apos;&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;google_analytics&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;UA-NNNNNNNN-N&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;front-matter-variables&quot;&gt;front matter variables&lt;/h3&gt;
+
+&lt;p&gt;Besides the predefined &lt;a href=&quot;https://jekyllrb.com/docs/front-matter/&quot;&gt;front matter&lt;/a&gt; variables from jekyll this theme also supports following variables:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; to set a title for the page&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lang&lt;/code&gt; to specify the language, defaults to ‘en’&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;robots&lt;/code&gt; to control the robot meta tag (&lt;a href=&quot;http://longqian.me/2017/02/12/jekyll-robots-configuration/&quot;&gt;details&lt;/a&gt;) - this may be useful for example to set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOINDEX&lt;/code&gt; to tag pages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;customization&quot;&gt;Customization&lt;/h2&gt;
+
+&lt;p&gt;If you want to customize this theme, follow this steps:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Fork this repository (you can use the fork as your own theme or directly as your website)&lt;/li&gt;
+  &lt;li&gt;Create or modify files in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; directory for html-based changes&lt;/li&gt;
+  &lt;li&gt;Create or modify files in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt; for css-based changes
+    &lt;ul&gt;
+      &lt;li&gt;You can change things which are used in light and dark theme (like font-size) in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass/base.scss&lt;/code&gt;. You’ll find style variables at the top.&lt;/li&gt;
+      &lt;li&gt;Style-specific definitions are in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass/_dark.scss&lt;/code&gt; respectively in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass/_light.scss&lt;/code&gt;. You can change things like background-color there.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;contributing&quot;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Bug reports and pull requests are welcome on GitHub at https://github.com/b2a3e8/jekyll-theme-console. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the &lt;a href=&quot;http://contributor-covenant.org&quot;&gt;Contributor Covenant&lt;/a&gt; code of conduct.&lt;/p&gt;
+
+&lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
+
+&lt;p&gt;To set up your environment to develop this theme, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Your theme is setup just like a normal Jekyll site! To test your theme, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; and open your browser at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt;. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme’s contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.&lt;/p&gt;
+
+&lt;p&gt;When your theme is released, only the files in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt; tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll-theme-console.gemspec&lt;/code&gt; accordingly.&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;The theme is available as open source under the terms of the &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="other" /><summary type="html">jekyll-theme-console</summary></entry><entry><title type="html">赞助</title><link href="http://618.sh/other/2021/11/06/pay.html" rel="alternate" type="text/html" title="赞助" /><published>2021-11-06T12:00:00+08:00</published><updated>2021-11-06T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/06/pay</id><content type="html" xml:base="http://618.sh/other/2021/11/06/pay.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/image/quick_response_code_alipay.png&quot; alt=&quot;&quot; width=&quot;98%&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;支付宝&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/image/quick_response_code_mmpay.png&quot; alt=&quot;&quot; width=&quot;98%&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;微信&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/image/quick_response_code_mmlike.png&quot; alt=&quot;&quot; width=&quot;98%&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;赞赏&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="other" /><summary type="html">支付宝</summary></entry></feed>
