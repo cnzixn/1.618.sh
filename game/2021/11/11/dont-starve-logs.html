@@ -2,7 +2,7 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
   <title>618.SH</title><!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.1" />
 <meta property="og:title" content="文件更新日志" />
@@ -17,19 +17,39 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="文件更新日志" />
 <script type="application/ld+json">
-{"dateModified":"2021-11-11T12:00:00+08:00","datePublished":"2021-11-11T12:00:00+08:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://618.sh/game/2021/11/11/dont-starve-logs.html"},"description":"21.11.13 0000 六格装备：可设置新增背包栏(四格)、护符栏(五格)、衣物栏(六格)，默认三格","url":"http://618.sh/game/2021/11/11/dont-starve-logs.html","headline":"文件更新日志","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","datePublished":"2021-11-11T12:00:00+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://618.sh/game/2021/11/11/dont-starve-logs.html"},"description":"21.11.13 0000 六格装备：可设置新增背包栏(四格)、护符栏(五格)、衣物栏(六格)，默认三格","url":"http://618.sh/game/2021/11/11/dont-starve-logs.html","headline":"文件更新日志","dateModified":"2021-11-11T12:00:00+08:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" type="text/css" href="/assets/css/main-dark.css"></head>
-<body>
-    <div class="container"><header>
+<script type="text/javascript">
+  window.addEventListener("load", function() {
+    var screenH = window.screen.height; //手机设备的屏幕高度
+    var topH = document.getElementById("top_container").offsetHeight;//页面顶部的高度
+    var bottomH = document.getElementById("bottom_container ").offsetHeight;
+    var middleH = 300 + screenH - ( topH + bottomH);
+    if(middleH >0){
+       document.getElememtById("middle_container").style.height = middleH +"px";
+    }else{
+    //可以什么都不写
+    }
+  });   
+  </script>
+
+  <body>
+    <div class="container">
+
+      <div id="top_container">
+        <div><header>
   <div class="menu">
     <ul><li><a href="/">/首页</a></li><li><a href="/mods">/兔协</a></li></ul>
     <hr />
   </div>
 </header>
-<main>
-      <center>文件更新日志</center>
-
+</div>
+      </div>
+      
+      <div id="middle_container">
+        <main>
+          <center>文件更新日志</center>
 
 <p>21.11.13   0000   六格装备：可设置新增背包栏(四格)、护符栏(五格)、衣物栏(六格)，默认三格</p>
 
@@ -388,11 +408,22 @@
 <p>20.03.14   0333   修复白骨夫人锁定物品栏的相关问题</p>
 
 
-    </main>
+        </main>
+      </div>
+      
+      <div id="bottom_container">
+        <div>
 <footer>
   <hr />
-  <a href="https://b23.tv/3yrUh3">/联系</a>
+  <a href="https://b23.tv/3yrUh3">/关注站长</a>
 </footer>
 </div>
+      </div>
+
+    </div>
+    
+    
+    
+    
   </body>
 </html>
