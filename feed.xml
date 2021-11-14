@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://618.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="http://618.sh/" rel="alternate" type="text/html" /><updated>2021-11-14T12:33:44+08:00</updated><id>http://618.sh/feed.xml</id><title type="html">618.SH</title><entry><title type="html">赞助本站</title><link href="http://618.sh/other/2021/11/11/pay.html" rel="alternate" type="text/html" title="赞助本站" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/11/pay</id><content type="html" xml:base="http://618.sh/other/2021/11/11/pay.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://618.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="http://618.sh/" rel="alternate" type="text/html" /><updated>2021-11-14T17:14:52+08:00</updated><id>http://618.sh/feed.xml</id><title type="html">618.SH</title><entry><title type="html">赞助本站</title><link href="http://618.sh/other/2021/11/11/pay.html" rel="alternate" type="text/html" title="赞助本站" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/11/pay</id><content type="html" xml:base="http://618.sh/other/2021/11/11/pay.html">&lt;center&gt;『樂不思蜀：感谢您的赞助』&lt;/center&gt;
+&lt;center&gt;『长按图片即可识别二维码』&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -13,149 +16,47 @@
       &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;微信&lt;/em&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="other" /><summary type="html"></summary></entry><entry><title type="html">兔人优化包</title><link href="http://618.sh/game/2021/11/11/dont-starve-0000.html" rel="alternate" type="text/html" title="兔人优化包" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-0000</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-0000.html">&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;#背景图片：设置主界面背景图，自定义可以替换文件bmbackground.tex。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="other" /><summary type="html">『樂不思蜀：感谢您的赞助』 『长按图片即可识别二维码』</summary></entry><entry><title type="html">兔人优化包</title><link href="http://618.sh/game/2021/11/11/dont-starve-0000.html" rel="alternate" type="text/html" title="兔人优化包" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-0000</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-0000.html">&lt;p&gt;#背景图片：可设置主界面的背景图片，自定义背景图片请自行替换 bmbackground.tex 文件。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;#字体大小：调整游戏中所有字体的大小。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#字体大小：调整游戏中所有字体的大小。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;#平板模式：大屏手机开启后更方便游戏操作。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#平板模式：大屏手机开启后更方便游戏操作。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;#视角切换：添加视角向左、向右旋转按钮。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#手柄模式：可设置启用/禁用手柄控制模式。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;#截图模式：人物静止5秒隐藏HUD，人物静止1秒显示HUD。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#视角切换：添加视角向左、向右旋转按钮。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;#阿比盖尔：阿比盖尔死亡后自动回到物品栏。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#截图模式：人物静止 5S 隐藏HUD，人物静止 1S 显示HUD。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;#查看状态：对物品进行“查看”动作时，会额外显示一行“血量”或“燃料”信息。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#阿比盖尔：阿比盖尔死亡后自动回到物品栏。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;#三维动态：动态显示出血量、饥饿、精神增加(绿色)或减少(红色)的数值。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#查看状态：对物品进行“查看”动作时，会额外显示一行“血量”或“燃料”信息。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;#缝缝补补：(可修复的)衣服帽子耐久为5s时会自动脱下。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#三维动态：动态显示出血量、饥饿、精神增加(绿色)或减少(红色)的数值。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*挂机保护：30S无任何操作则自动保存并暂停游戏。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#缝缝补补：(可修复的)衣服帽子耐久只剩 5S 时会自动脱下。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*垃圾清除：世界中的物品超出“限定数量”会被清除，可以在文件maxprefabs.lua中修改限定数量。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;#建造清单：一共十个栏位，可将建造配方添加到屏幕上以便快捷建造。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*丢弃取出：物品栏(不含背包)新增“丢弃”动作，容器新增“取出”动作(不会取出到背包)。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*挂机保护：30S 无任何操作则自动保存并暂停游戏。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*跳跃围墙：围墙添加“跳跃”动作，方便玩家进入“养殖场”。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*垃圾清除：超出‘上限’的物品会在 200S 后被清除；丢弃的物品会在 100S 后被清除；容器中的物品不会被清除(拾取可以阻止被清除)。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*对齐网格：建造栽种时会自动对齐到网格，方便触发行为记忆。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*丢弃取出：(忽略背包)物品栏新增“丢弃”动作，容器新增“取出”动作。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*四十五格：物品栏可以设置为25、45格，可以通过按钮显示/隐藏。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*跳跃围墙：围墙添加“跳跃”动作，方便玩家进入“养殖场”。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*快速装备：屏幕点击(或手柄查看)物品(树、石、池塘等)时自动装备所需工具(忽略背包中工具)。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*对齐网格：建造栽种时会自动对齐到网格，方便触发行为记忆。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*空格保留：装备物品时会记录物品“原位置”，捡的新物品不会占用“已记录的位置”。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*四十五格：物品栏可以设置为25、45格，可以通过按钮显示/隐藏。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*自动合并：玩家附近的可堆叠物品自动合并到一起(单个物品、玩家脚下的物品不合并)。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*六格装备：装备栏可以设置为4、5、6格，可以额外装备背包、护符、衣服&lt;/p&gt;
+
+&lt;p&gt;*快速装备：屏幕的点击(或手柄的查看)物品(树、石、池塘等)时自动装备所需工具(忽略背包)。&lt;/p&gt;
+
+&lt;p&gt;*空格保留：装备物品时会记录物品“原位置”，捡的新物品不会占用“已记录的位置”。&lt;/p&gt;
+
+&lt;p&gt;*自动合并：玩家附近的可堆叠物品自动合并到一起(单个物品、玩家脚下的物品不合并)。&lt;/p&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -163,78 +64,54 @@
       &lt;td&gt;*条件反射：会记住特定动作并一直重复进行该动作。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[强行停止]：人物“移动”可强行停止当前重复的动作。&lt;/td&gt;
+      &lt;td&gt;　　[强行停止]：人物“移动”可强行停止当前重复的动作。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[使用工具]：检测范围5；使用斧子、镐子、铲子、砍刀、镰刀、锄头。&lt;/td&gt;
+      &lt;td&gt;　　[使用工具]：检测范围5；使用斧子、镐子、铲子、砍刀、镰刀、锄头。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[采摘拾取]：检测范围5；主要用于采摘移植的作物、拾取便便等(不会拾取花、陷阱、笼中鸟等)。&lt;/td&gt;
+      &lt;td&gt;　　[采摘拾取]：检测范围5；主要用于采摘移植的作物、拾取便便等(不会拾取花、陷阱、笼中鸟等)。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[刮毛晾肉]：检测范围15；刮牛毛；晾干肉。&lt;/td&gt;
+      &lt;td&gt;　　[刮毛晾肉]：检测范围15；刮牛毛；晾干肉。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[施肥播种]：检测范围15；植物施肥；农场播种。&lt;/td&gt;
+      &lt;td&gt;　　[施肥播种]：检测范围15；植物施肥；农场播种。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[重置陷阱]：检测范围15；重置犬牙、蜂刺、荆棘陷阱。&lt;/td&gt;
+      &lt;td&gt;　　[重置陷阱]：检测范围15；重置犬牙、蜂刺、荆棘陷阱。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[添加燃料]：火坑、提灯、灭火器、矿工帽等添加燃料。&lt;/td&gt;
+      &lt;td&gt;　　[添加燃料]：火坑、提灯、灭火器、矿工帽等添加燃料。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[烹饪给予]：烹饪食物；物品给予；升级装备。&lt;/td&gt;
+      &lt;td&gt;　　[烹饪给予]：烹饪食物；物品给予；升级装备。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[批量制作]：制作陷阱、小物品(可堆叠的物品)。&lt;/td&gt;
+      &lt;td&gt;　　[批量制作]：制作陷阱、小物品(可堆叠的物品)。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[建造栽种]：建造、栽种、铲地、铺地等，若第1次、第2次操作的距离为最小间隔时，会以第1次为起点，朝第2次的方向继续该操作。&lt;/td&gt;
+      &lt;td&gt;　　[建造栽种]：建造、栽种、铲地、铺地等，若第1次、第2次操作的距离为最小间隔时，会以第1次为起点，朝第2次的方向继续该操作。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[丢弃树种]：丢弃1个松果、橡果、椰子(将1个可堆叠物移动出物品栏丢弃，可触发“建造栽种”的效果)。&lt;/td&gt;
+      &lt;td&gt;　　[丢弃树种]：丢弃1个松果、橡果、椰子(将1个可堆叠物移动出物品栏丢弃，可触发“建造栽种”的效果)。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[摧毁沙堆]：使用铲子挖完沙堆后，自动用手摧毁沙堆。&lt;/td&gt;
+      &lt;td&gt;　　[摧毁沙堆]：使用铲子挖完沙堆后，自动用手摧毁沙堆。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　[自动钓鱼]：开始钓鱼后，会自动完成抛竿、收杆动作。&lt;/td&gt;
+      &lt;td&gt;　　[自动钓鱼]：开始钓鱼后，会自动完成抛竿、收杆动作。&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*移除树桩：玩家附近的树桩会被自动“铲掉”(自己铲掉自己，掉落1木头)。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*移除树桩：玩家附近的树桩会被自动“铲掉”(自己铲掉自己，掉落1木头)。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*加速砍挖：加速使用斧头、砍刀、镐子动作。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*加速砍挖：加速使用斧头、砍刀、镐子动作。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*烹饪大师：使用烹饪锅会记住用过的食材，下次烹饪时可快速填充&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*烹饪大师：使用烹饪锅会记住用过的食材，下次烹饪时可快速填充&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;*火焰蔓延：火焰蔓延时会先冒烟，一段时间后才会着火。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;*火焰蔓延：物品被引燃时会先冒烟，一段时间后才会着火。&lt;/p&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -242,67 +119,67 @@
       &lt;td&gt;其他优化：&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　优化轮盘触发条件。&lt;/td&gt;
+      &lt;td&gt;　　优化轮盘触发条件。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　优化物品栏数字大小。&lt;/td&gt;
+      &lt;td&gt;　　优化物品栏数字大小。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　优化制作栏手柄控制。&lt;/td&gt;
+      &lt;td&gt;　　优化制作栏手柄控制。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　角色界面添加“解锁”按钮。&lt;/td&gt;
+      &lt;td&gt;　　角色界面添加“解锁”按钮。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　讣告界面添加“清空”按钮。&lt;/td&gt;
+      &lt;td&gt;　　讣告界面添加“清空”按钮。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　修复猎犬时间错乱的问题。&lt;/td&gt;
+      &lt;td&gt;　　修复猎犬时间错乱的问题。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　草叉添加物品栏动作“挖”。&lt;/td&gt;
+      &lt;td&gt;　　草叉添加物品栏动作“挖”。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　地皮添加物品栏动作“放置”。&lt;/td&gt;
+      &lt;td&gt;　　地皮添加物品栏动作“放置”。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　游戏内部可导入备份的存档。&lt;/td&gt;
+      &lt;td&gt;　　游戏内部可导入备份的存档。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　优化动作按钮，不可攻击空气。&lt;/td&gt;
+      &lt;td&gt;　　优化动作按钮，不可攻击空气。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　修复浆果帽子不能使用的问题。&lt;/td&gt;
+      &lt;td&gt;　　修复浆果帽子不能使用的问题。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　修复蜗牛护甲不能使用的问题。&lt;/td&gt;
+      &lt;td&gt;　　修复蜗牛护甲不能使用的问题。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　石虾不在洞穴时移除生育能力。&lt;/td&gt;
+      &lt;td&gt;　　石虾不在洞穴时移除生育能力。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　灭火器不扑灭玩家建造的火堆。&lt;/td&gt;
+      &lt;td&gt;　　灭火器不扑灭玩家建造的火堆。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　修复施法音效无限播放的问题。&lt;/td&gt;
+      &lt;td&gt;　　修复施法音效无限播放的问题。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　支持控制台、传送木牌等文字输入。&lt;/td&gt;
+      &lt;td&gt;　　支持控制台、传送木牌等文字输入。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　启动游戏可备份游戏数据(包括存档)。&lt;/td&gt;
+      &lt;td&gt;　　启动游戏可备份游戏数据(包括存档)。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　修复冰箱、烹饪锅交换物品会消失的问题。&lt;/td&gt;
+      &lt;td&gt;　　修复冰箱、烹饪锅交换物品会消失的问题。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　渡渡鸟数量少于两只时建造的鸟巢会有蛋。&lt;/td&gt;
+      &lt;td&gt;　　渡渡鸟数量少于两只时建造的鸟巢会有蛋。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;　更多优化功能，只要你能想到，我尽量做到。&lt;/td&gt;
+      &lt;td&gt;　　更多优化功能，只要你能想到，我尽量做到。&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="game" /><summary type="html">#背景图片：设置主界面背景图，自定义可以替换文件bmbackground.tex。 #字体大小：调整游戏中所有字体的大小。 #平板模式：大屏手机开启后更方便游戏操作。 #视角切换：添加视角向左、向右旋转按钮。 #截图模式：人物静止5秒隐藏HUD，人物静止1秒显示HUD。 #阿比盖尔：阿比盖尔死亡后自动回到物品栏。</summary></entry><entry><title type="html">新人入门级教程</title><link href="http://618.sh/game/2021/11/11/dont-starve-tutorial.html" rel="alternate" type="text/html" title="新人入门级教程" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-tutorial</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-tutorial.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;/table&gt;</content><author><name></name></author><category term="game" /><summary type="html">#背景图片：可设置主界面的背景图片，自定义背景图片请自行替换 bmbackground.tex 文件。 #字体大小：调整游戏中所有字体的大小。 #平板模式：大屏手机开启后更方便游戏操作。 #手柄模式：可设置启用/禁用手柄控制模式。 #视角切换：添加视角向左、向右旋转按钮。 #截图模式：人物静止 5S 隐藏HUD，人物静止 1S 显示HUD。 #阿比盖尔：阿比盖尔死亡后自动回到物品栏。</summary></entry><entry><title type="html">新人入门级教程</title><link href="http://618.sh/game/2021/11/11/dont-starve-tutorial.html" rel="alternate" type="text/html" title="新人入门级教程" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-tutorial</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-tutorial.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
 &lt;span class=&quot;c&quot;&gt;# 0x1 安装游戏&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;game&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -1148,9 +1025,9 @@
       &lt;td&gt;&lt;a href=&quot;/game/2021/11/11/dont-starve-0000.html&quot;&gt;[兔人优化包]&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="game" /><summary type="html"># 声明 $ cat statement</summary></entry><entry><title type="html">文件更新日志</title><link href="http://618.sh/game/2021/11/11/dont-starve-logs.html" rel="alternate" type="text/html" title="文件更新日志" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-logs</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-logs.html">&lt;p&gt;21.11.13   0000   六格装备：可设置新增背包栏(四格)、护符栏(五格)、衣物栏(六格)，默认三格&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="game" /><summary type="html"># 声明 $ cat statement</summary></entry><entry><title type="html">文件更新日志</title><link href="http://618.sh/game/2021/11/11/dont-starve-logs.html" rel="alternate" type="text/html" title="文件更新日志" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-logs</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-logs.html">&lt;p&gt;21.11.13   0000   六格装备：装备栏可以设置为4、5、6格，可以额外装备背包、护符、衣服&lt;/p&gt;
 
-&lt;p&gt;21.11.10   0000   四十五格：可设置15、25、45格，默认15格&lt;/p&gt;
+&lt;p&gt;21.11.10   0000   四十五格：物品栏可以设置为25、45格，可以通过按钮显示/隐藏&lt;/p&gt;
 
 &lt;p&gt;21.10.23   0000   优化使用冰扑灭火操作(冰可在物品栏直接使用)&lt;/p&gt;
 
@@ -1502,7 +1379,7 @@
 
 &lt;p&gt;20.03.14   0348   沃姆伍德新增武器藤杖(Rattan)&lt;/p&gt;
 
-&lt;p&gt;20.03.14   0333   修复白骨夫人锁定物品栏的相关问题&lt;/p&gt;</content><author><name></name></author><category term="game" /><summary type="html">21.11.13 0000 六格装备：可设置新增背包栏(四格)、护符栏(五格)、衣物栏(六格)，默认三格</summary></entry><entry><title type="html">jekyll-theme-console</title><link href="http://618.sh/other/2021/11/06/jekyll-theme-console.html" rel="alternate" type="text/html" title="jekyll-theme-console" /><published>2021-11-06T12:00:00+08:00</published><updated>2021-11-06T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/06/jekyll-theme-console</id><content type="html" xml:base="http://618.sh/other/2021/11/06/jekyll-theme-console.html">&lt;h1 id=&quot;jekyll-theme-console&quot;&gt;jekyll-theme-console&lt;/h1&gt;
+&lt;p&gt;20.03.14   0333   修复白骨夫人锁定物品栏的相关问题&lt;/p&gt;</content><author><name></name></author><category term="game" /><summary type="html">21.11.13 0000 六格装备：装备栏可以设置为4、5、6格，可以额外装备背包、护符、衣服</summary></entry><entry><title type="html">jekyll-theme-console</title><link href="http://618.sh/other/2021/11/06/jekyll-theme-console.html" rel="alternate" type="text/html" title="jekyll-theme-console" /><published>2021-11-06T12:00:00+08:00</published><updated>2021-11-06T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/06/jekyll-theme-console</id><content type="html" xml:base="http://618.sh/other/2021/11/06/jekyll-theme-console.html">&lt;h1 id=&quot;jekyll-theme-console&quot;&gt;jekyll-theme-console&lt;/h1&gt;
 
 &lt;p&gt;A jekyll theme with inspiration from linux consoles for hackers, developers and script kiddies.&lt;/p&gt;
 
