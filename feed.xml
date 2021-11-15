@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://618.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="http://618.sh/" rel="alternate" type="text/html" /><updated>2021-11-15T13:34:27+08:00</updated><id>http://618.sh/feed.xml</id><title type="html">618.SH</title><entry><title type="html">赞助本站</title><link href="http://618.sh/other/2021/11/11/pay.html" rel="alternate" type="text/html" title="赞助本站" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/11/pay</id><content type="html" xml:base="http://618.sh/other/2021/11/11/pay.html">&lt;center&gt;『樂不思蜀：感谢您的赞助』&lt;/center&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://618.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="http://618.sh/" rel="alternate" type="text/html" /><updated>2021-11-15T14:36:29+08:00</updated><id>http://618.sh/feed.xml</id><title type="html">618.SH</title><entry><title type="html">赞助本站</title><link href="http://618.sh/other/2021/11/11/pay.html" rel="alternate" type="text/html" title="赞助本站" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/other/2021/11/11/pay</id><content type="html" xml:base="http://618.sh/other/2021/11/11/pay.html">&lt;center&gt;『樂不思蜀：感谢您的赞助』&lt;/center&gt;
 &lt;center&gt;『长按图片即可识别二维码』&lt;/center&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -180,13 +180,37 @@
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</content><author><name></name></author><category term="game" /><summary type="html">#背景图片：可设置主界面的背景图片，自定义背景图片请自行替换 bmbackground.tex 文件。 #字体大小：调整游戏中所有字体的大小。 #平板模式：大屏手机开启后更方便游戏操作。 #手柄模式：可设置启用/禁用手柄控制模式。 #视角切换：添加视角向左、向右旋转按钮。 #截图模式：人物静止 5S 隐藏HUD，人物静止 1S 显示HUD。 #阿比盖尔：阿比盖尔死亡后自动回到物品栏。</summary></entry><entry><title type="html">新人入门级教程</title><link href="http://618.sh/game/2021/11/11/dont-starve-tutorial.html" rel="alternate" type="text/html" title="新人入门级教程" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-tutorial</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-tutorial.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
-&lt;span class=&quot;c&quot;&gt;# 0x1 下载游戏&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 0x1 下载文件&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;download file&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;在 &lt;a href=&quot;https://1.618.sh/mods&quot;&gt;模组使用指南&lt;/a&gt; 页面下载下述教程所需文件:
-ShipWrecked.APK(1.28.1)、ShipWrecked.OBB(1.28.1)、0001.TMI测试工具、110128.兔人框架(群文件下载)。&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&quot;https://1.618.sh/mods&quot;&gt;模组使用指南&lt;/a&gt; 页面下载所需文件:&lt;/p&gt;
 
-&lt;p&gt;一般浏览器(Edge、Chrome)下载的文件放在 /sdcard/download 文件夹，最新版QQ下载的文件在 /sdcard/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/ 文件夹。找不到文件，可以使用&lt;em&gt;MT管理器&lt;/em&gt;的搜索功能&lt;a href=&quot;/assets/image/bunnyman_tutorial00.png&quot;&gt;(tu00.png)&lt;/a&gt;。&lt;/p&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;0001.TMI测试工具&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;110128.兔人框架&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;ShipWrecked.APK(1.28.1)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;ShipWrecked.OBB(1.28.1)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;一般浏览器(Edge、Chrome)下载目录为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/sdcard/download&lt;/code&gt; 文件夹，找不到文件可以使用&lt;em&gt;MT管理器&lt;/em&gt;的搜索功能&lt;a href=&quot;/assets/image/bunnyman_tutorial00.png&quot;&gt;(tu00.png)&lt;/a&gt;。&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
 &lt;span class=&quot;c&quot;&gt;# 0x2 安装框架&lt;/span&gt;
@@ -206,7 +230,7 @@ ShipWrecked.APK(1.28.1)、ShipWrecked.OBB(1.28.1)、0001.TMI测试工具、11012
 &lt;span class=&quot;c&quot;&gt;# 0x3 安装补丁&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;mod&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;　安装包补丁只会使用一次，所以一般说的补丁是数据包补丁，模组则是扩展游戏玩法的数据包补丁。在安装框架的第4步，你已经操作过了。请找到数据包补丁(ADD_TO_OBB)，将里面的文件&lt;strong&gt;&lt;em&gt;全选&lt;/em&gt;&lt;/strong&gt;并添加到数据包(obb)。&lt;a href=&quot;/assets/image/bunnyman_tutorial09.png&quot;&gt;(tu09.png)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="game" /><summary type="html"># 0x1 下载游戏 $ download file</summary></entry><entry><title type="html">模组使用指南</title><link href="http://618.sh/game/2021/11/11/dont-starve-mods.html" rel="alternate" type="text/html" title="模组使用指南" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-mods</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-mods.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
+&lt;p&gt;安装包补丁只会使用一次，所以一般说的补丁是数据包补丁，模组则是扩展游戏玩法的数据包补丁。在安装框架的第4步，你已经操作过了。请找到数据包补丁(ADD_TO_OBB)，将里面的文件&lt;strong&gt;&lt;em&gt;全选&lt;/em&gt;&lt;/strong&gt;并添加到数据包&lt;a href=&quot;/assets/image/bunnyman_tutorial09.png&quot;&gt;(tu09.png)&lt;/a&gt;。&lt;/p&gt;</content><author><name></name></author><category term="game" /><summary type="html"># 0x1 下载文件 $ download file</summary></entry><entry><title type="html">模组使用指南</title><link href="http://618.sh/game/2021/11/11/dont-starve-mods.html" rel="alternate" type="text/html" title="模组使用指南" /><published>2021-11-11T12:00:00+08:00</published><updated>2021-11-11T12:00:00+08:00</updated><id>http://618.sh/game/2021/11/11/dont-starve-mods</id><content type="html" xml:base="http://618.sh/game/2021/11/11/dont-starve-mods.html">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;  
 &lt;span class=&quot;c&quot;&gt;# 声明&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;statement&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 

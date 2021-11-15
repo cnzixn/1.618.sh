@@ -21,7 +21,7 @@ pre { font-family: monospace; }
 /** Layout */
 .container { width: 90%; max-width: 600px; margin-right: auto; margin-left: auto; }
 
-p { word-wrap: break-word; word-break: break-word; white-space: pre-wrap; margin-top: 15px; margin-bottom: 15px; text-indent: 1em; }
+p { word-wrap: break-word; word-break: normal; white-space: pre-wrap; margin-top: 15px; margin-bottom: 15px; text-indent: 1em; }
 
 footer { color: var(--text-color); margin: 20px auto 15px; padding-top: 10px; padding-bottom: 10px; text-align: right; }
 
