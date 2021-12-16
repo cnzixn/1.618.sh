@@ -2,20 +2,6 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {%- include head.html -%}
-  
-  <script type="text/javascript">
-  window.addEventListener("load", function() {
-    var screenH = window.screen.height; //手机设备的屏幕高度
-    var topH = document.getElementById("top_container").offsetHeight;//页面顶部的高度
-    var bottomH = document.getElementById("bottom_container ").offsetHeight;
-    var middleH = 300 + screenH - ( topH + bottomH);
-    if(middleH >0){
-       document.getElememtById("middle_container").style.height = middleH +"px";
-    }else{
-    //可以什么都不写
-    }
-  });   
-  </script>
 
   <body>
     <div class="container">
@@ -39,9 +25,5 @@
       </div>
 
     </div>
-    
-    
-    
-    
   </body>
 </html>
