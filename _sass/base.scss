@@ -33,10 +33,9 @@ pre { font-family: monospace; }
  */
 .container { width: $container-width;  max-width: $container-max-width;  margin-right: auto;  margin-left: auto; }
 p { word-wrap: break-word;  word-break: normal;  white-space: pre-wrap; margin-top: 15px;  margin-bottom: 15px;  text-indent: 1em; }
-footer { color: var(--text-color);  margin: 20px auto 15px;  padding-top: 10px;  padding-bottom: 10px;  text-align: right;  } 
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
-footer { margin-bottom: 20px; }
+footer { color: var(--text-color);  margin: 20px auto 15px;  padding-top: 10px;  padding-bottom: 10px;  text-align: center;  } 
 footer a { text-decoration: none;  color: var(--text-color); } //  border: none;
 hr { border-top: var(--border);  border-bottom: none;  }
 h1 { text-align: center;  }

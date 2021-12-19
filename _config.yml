@@ -35,7 +35,7 @@ url: "http://1.618.sh" # the base hostname & protocol for your site, e.g. http:/
 
 
 # Build settings
-# theme: jekyll-theme-console
+theme: jekyll-theme-console
   # minima
   # jekyll-theme-console
   # no-style-please
