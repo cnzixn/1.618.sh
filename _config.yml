@@ -31,7 +31,7 @@ title: 618.SH
   
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 
-url: "http://618.sh" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://1.618.sh" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
@@ -44,6 +44,7 @@ url: "http://618.sh" # the base hostname & protocol for your site, e.g. http://e
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -66,8 +67,10 @@ plugins:
 #   - vendor/ruby/
 
 
-# jekyll-theme-console settings
 
+
+
+# jekyll-theme-console settings
 
 header_pages:
   - index.md
@@ -81,5 +84,5 @@ style: dark # dark (default) or light or hacker
 
 # listen_for_clients_preferred_style: true # true or false (default)
 
-plugins:
-  - jekyll-seo-tag
+# plugins:
+#  - jekyll-seo-tag
