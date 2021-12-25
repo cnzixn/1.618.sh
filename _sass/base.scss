@@ -1,14 +1,18 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
+
 @font-face {
-  font-family: "UniFont";
-  src: url("{{ site.baseurl }}/assets/front/unifont-13.0.03.ttf");
+  font-family: "UniFont-13003";
+  src: url("../front/unifont-13.0.03.ttf");
+}
+@font-face {
+  font-family: "UniFont-14001";
+  src: url("../front/unifont-14.0.01.ttf");
 }
 
 /**
  * Style variables
  */
-$base-font-family:     "UniFont" !default;
+$base-font-family:     "UniFont-14001" !default;
 $base-font-size:       12.5px !default;
 $mobile-font-size:     12px !default;
 $base-line-height:     1.5 !default;
@@ -25,7 +29,6 @@ p, ul, ol { margin: 0px;  color: var(--text-color); }
 a { text-decoration: none;  border-bottom:1px dashed #ccc;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
-pre { font-family: monospace; }
 
 
 /**
@@ -82,8 +85,8 @@ textarea { vertical-align: top; }
  * Code and syntax highlighting
  */
 .lineno { color: var(--code-color-1); margin-right: 15px; }
-figure.highlight { margin: 5px 0; }
-pre { background-color: var(--background-color);  border: none;  padding: 0;  margin: 0;  overflow:auto;  font-size: $base-font-size;  color: var(--text-color);  line-height: 1.7 !important;  font-family: $base-font-family !important; }
+.highlight { margin: 5px 0; }
+pre code { background-color: var(--background-color);  border: none;  padding: 0;  margin: 0;  overflow:auto;  font-size: $base-font-size;  color: var(--text-color);  line-height: 1.7 !important;  font-family: $base-font-family !important; }
 .highlight .hll { background-color: var(--code-color-2); }
 .highlight .c { color: var(--code-color-1); font-style: italic } /* Comment */
 .highlight .err { color: var(--code-color-3); background-color: var(--code-color-4); } /* Error */

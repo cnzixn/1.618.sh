@@ -7,11 +7,11 @@ categories: game
 
 
 
-{% highlight shell %}
+``` shell
   
 # 声明
 $ cat statement
-{% endhighlight %}
+```
 
 |【免费】：兔人框架的主要功能、移植而来的补丁**永久免费**，不要找任何人**购买**。|
 |【赞助】：喜欢就赞助，不喜欢就白嫖。框架的**专属优化**需要赞助，不喜欢可删除。|
@@ -19,65 +19,65 @@ $ cat statement
 
 
 
-{% highlight shell %}
+``` shell
   
 # 联系
 $ cat contact 
-{% endhighlight %}
+```
   
 |[[556106293]][QQG556]：全体禁言。发布更新通知，新人务必加入。|
 |[[614255348]][QQG614]：限时开放。古老的交流群，新人请勿加入。|
 
 
 
-{% highlight shell %}
+``` shell
   
 # 教程
 $ cat tutorial
-{% endhighlight %}
+```
 
 [[TUTORIAL]新人入门级教程][WWW3]
 
 
-{% highlight shell %}
+``` shell
   
 # 工具
 $ ls tools
-{% endhighlight %}
+```
 
-|[MT管理器(2.10.0)][APK2100]||[其它版本][APKMT2]|
+|[MT管理器(2.10.0)][APK2100]||[官方版本大全][APKMT2]|
 
 
 
-{% highlight shell %}
+``` shell
   
 # 游戏
 $ ls games
-{% endhighlight %}
+```
 
+<!--
 | :--- |
 | > 游戏文件下载链接由好游快爆提供|
 
 |[ShipWrecked.APK(1.28.1)][APK128]||[ShipWrecked.OBB(1.28.1)][OBB128]|
+-->
+尊重版权，自行购买！
 
-
-
-
-{% highlight shell %}
+``` shell
   
 # 框架
 $ ls frames
-{% endhighlight %}
+```
 
 更新频繁，暂不公开，[[556106293][QQG556]]群文件下载
 
 
 
-{% highlight shell %}
+``` shell
   
 # 补丁
 $ ls mods
-{% endhighlight %}
+```
 
 |:--|:--|
 |[0001.TMI测试工具][GHT-0001]|[0181.失落的岛屿][GHT-0181]|
@@ -262,11 +262,11 @@ $ ls mods
  |[0180.打包魔杖][GHT-0180]|[0360.手柄操作优化][GHT-0360]|
  
 
-{% highlight shell %}
+``` shell
   
 # 其它
 $ ls other
-{% endhighlight %}
+```
 
 | [[更新日志]][WWW1] | | [[兔人优化包]][WWW2] |
 

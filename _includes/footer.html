@@ -1,32 +1,15 @@
-<script type="text/javascript">
-    function show_runtime() {
-        window.setTimeout("show_runtime()", 1000);
-        X = new Date("2021/11/01 00:00:00");
-        Y = new Date();
-        T = (Y.getTime() - X.getTime());
-        M = 24 * 60 * 60 * 1000;
-        a = T / M;
-        A = Math.floor(a);
-        b = (a - A) * 24;
-        B = Math.floor(b);
-        c = (b - B) * 60;
-        C = Math.floor(c);
-        d = (c - C) * 60;
-        D = Math.floor(d);
-        A = A>=0 ? A : "0"+A;
-        B = B>=10 ? B : "0"+B;
-        C = C>=10 ? C : "0"+C;
-        D = D>=10 ? D : "0"+D;
-        document.getElementById("days").innerHTML = "" + A + "天" + B + "小时" + C + "分" + D + "秒"
-    }
-    show_runtime();
-</script>
 
 <footer>
   <hr />
-  <em> © 2021 1.618 | 本站运行 <span id="days"> </span></em>
+  <em> © 2021 1.618 </em>
   <br />
-  <em>萌ICP备 <a href="https://icp.gov.moe/?keyword=20211618" target="_blank">20211618</a> 号 | Powder by <a href="//github.com/cnzixn">Github</a>, <a href="//jekyllrb.com">Jekyll</a>, <a href="//cloudflare.com">Cloudflare</a>.</em>
-  
+  <em>萌ICP备 <a href="https://icp.gov.moe/?keyword=20211618" target="_blank">20211618</a> 号</em>
+  <br />
+  <em> 本站运行 <span id="vdays"> </span> </em>
+  <br />
+  <em> Powder By <a href="//github.com/cnzixn/1.618.sh">Github</a>, <a href="//jekyllrb.com">Jekyll</a>, <a href="//cloudflare.com">Cloudflare</a>. </em>
+  <br />
+  <em> Theme By <a href="//github.com/b2a3e8/jekyll-theme-console">Github</a>, <a href="//jekyllrb.com">Jekyll</a> </em>
+  <br />
  
 </footer>

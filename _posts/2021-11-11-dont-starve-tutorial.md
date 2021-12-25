@@ -5,11 +5,11 @@ date:   2021-11-11 12:00:00 +0800
 categories: game
 ---
 
-{% highlight shell %}
+``` shell
   
 # 0x1 下载文件
-$ download file
-{% endhighlight %}
+$ wget file
+```
 
 在 [模组使用指南](https://1.618.sh/mods) 页面下载所需文件:
 
@@ -21,11 +21,11 @@ $ download file
 
 一般浏览器(Edge、Chrome)下载目录为 `/sdcard/download` 文件夹，找不到文件可以使用*MT管理器*的搜索功能[(tu00.png)]({{ site.baseurl }}/assets/image/bunnyman_tutorial00.png)。  
 
-{% highlight shell %}
+``` shell
   
 # 0x2 安装框架
 $ install frame
-{% endhighlight %}
+```
 
 1、兔人模组(0001)，此文件只有数据包补丁(ADD\_TO\_OBB)这一部分的文件[(tu01.png)]({{ site.baseurl }}/assets/image/bunnyman_tutorial01.png)。  
 
@@ -39,10 +39,10 @@ $ install frame
 
 
 
-{% highlight shell %}
+``` shell
   
 # 0x3 安装补丁
 $ install mod
-{% endhighlight %}
+```
 
 安装包补丁只会使用一次，所以一般说的补丁是数据包补丁，模组则是扩展游戏玩法的数据包补丁。在安装框架的第4步，你已经操作过了。请找到数据包补丁(ADD\_TO\_OBB)，将里面的文件***全选***并添加到数据包[(tu09.png)]({{ site.baseurl }}/assets/image/bunnyman_tutorial09.png)。
