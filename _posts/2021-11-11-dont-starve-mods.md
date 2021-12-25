@@ -3,6 +3,7 @@ layout: post
 title:  "模组使用指南"
 date:   2021-11-11 12:00:00 +0800
 categories: game
+comment: true
 ---
 
 

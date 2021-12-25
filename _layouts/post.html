@@ -6,4 +6,6 @@ layout: default
 
 {{ content }}
 
-<div id="vcomment"></div>
+{%- if post.comment -%}
+  <div id="vcomment"></div>
+{%- endif -%}
