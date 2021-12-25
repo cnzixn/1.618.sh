@@ -31,7 +31,7 @@ title: 1.618.SH
   
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 
-url: "http://1.618.sh" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://1.618.sh" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings

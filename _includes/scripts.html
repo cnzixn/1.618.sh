@@ -61,9 +61,11 @@
 
 -->
 
-          <!-- <script src="https://cdn.jsdelivr.net/npm/valine"></script>   -->
-          <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-          
+          <!-- <script src="https://cdn.jsdelivr.net/npm/valine"></script>
+          -->
+          <!-- <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+          -->
+          <script src="{{ site.url }}/assets/scripts/Valine.min.js">
           <script>
             
             var path = window.location.pathname.replace('index.html','');
@@ -74,12 +76,14 @@
                 appId: 'AHOySgI6eQtAoG4vY0kA32FH-gzGzoHsz',
                 appKey: 'PYKmoDcPYgGQmP4sx93nof8X',
                 placeholder: 'Just Go Go.',
+                meta: ['nick','mail'],
                 avatar:'mp',
                 path:path,
                 recordIP:true,
                 lang: isEN ? 'en' : 'zh-cn',
                 visitor: true,
                 enableQQ: true,
+                pageSize: 10,
                 emojiCDN: path.indexOf('emoji') > -1 ? '//i0.hdslb.com/bfs/emote/' : '//img.t.sinajs.cn/t4/appstyle/expression/ext/normal/',
                 emojiMaps: path.indexOf('emoji') > -1 ? {
                   "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
