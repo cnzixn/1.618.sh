@@ -21,7 +21,7 @@
         B = B>=10 ? B : "0"+B;
         C = C>=10 ? C : "0"+C;
         D = D>=10 ? D : "0"+D;
-        document.getElementById("vdays").innerHTML = "" + A + "天" + B + "小时" + C + "分" + D + "秒"
+        document.getElementById("vdays").innerHTML = "" + A + "D " + B + "H " + C + "M " + D + "S"
     }
     show_runtime();
 </script>
@@ -52,7 +52,7 @@
   var isEN = path.indexOf('en') > -1;
   path = isEN ? path.replace('en/','') : path;
   new Valine({
-      el: '.vcomment',
+      el: '#vcomment',
       appId: 'AHOySgI6eQtAoG4vY0kA32FH-gzGzoHsz',
       appKey: 'PYKmoDcPYgGQmP4sx93nof8X'
       placeholder: 'Just Go Go.',
