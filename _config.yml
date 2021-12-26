@@ -88,6 +88,6 @@ style: dark # dark (default) or light or hacker
 #  - jekyll-seo-tag
 
 #Valin
-appId: "AHOySgI6eQtAoG4vY0kA32FH-gzGzoHsz"
+appId: "AHOySgI6eQtAoG4vY0kA32FH\-gzGzoHsz"
 appKey: "PYKmoDcPYgGQmP4sx93nof8X"
-placeholder: "请输入你的留言..."
+placeholder: "请输入你的留言...."
