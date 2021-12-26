@@ -65,17 +65,21 @@
           -->
           <!-- <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
           -->
-          <script src="/assets/scripts/Valine.min.js"></script>
+          
+          <script src="/assets/scripts/Valine.js"></script>
           
           <script>
             
             var path = window.location.pathname.replace('index.html','');
-            var isEN = path.indexOf('en') > -1;
+            var isEN = false, // path.indexOf('en') > -1;
             path = isEN ? path.replace('en/','') : path;
             new Valine({
                 el: '#valine',
-                appId: 'AHOySgI6eQtAoG4vY0kA32FH-gzGzoHsz', // AHOySgI6eQtAoG4vY0kA32FH-gzGzoHsz, 0tHhQGBoCVXzqWvAGnm9UI2E-MdYXbMMI
-                appKey: 'PYKmoDcPYgGQmP4sx93nof8X', // PYKmoDcPYgGQmP4sx93nof8X, lrqNRKN3pJ4fwOUd6pVe65xP
+                //  AHOySgI6eQtAoG4vY0kA32FH-gzGzoHsz  PYKmoDcPYgGQmP4sx93nof8X
+                //  0tHhQGBoCVXzqWvAGnm9UI2E-MdYXbMMI  lrqNRKN3pJ4fwOUd6pVe65xP
+                appId: 'AHOySgI6eQtAoG4vY0kA32FH-gzGzoHsz',
+                appKey: 'PYKmoDcPYgGQmP4sx93nof8X',
+                serverURL: 'https://2-618-sh-24pmw057n-cnzixn.vercel.app/',
                 placeholder: 'Just Go Go.',
                 meta: ['nick','mail'],
                 avatar:'mp',
