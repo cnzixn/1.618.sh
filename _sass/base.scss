@@ -19,47 +19,6 @@ $base-line-height:     1.5 !default;
 $container-width:      90% !default;
 $container-max-width:  600px !default;
 
-:root {
-  /* 字体大小 */
-  --waline-font-size: 16px;
-
-  /* 常规颜色 */
-  --waline-white: #fff;
-  --waline-light-grey: #999;
-  --waline-dark-grey: #666;
-
-  /* 主题色 */
-  --waline-theme-color: #27ae60;
-  --waline-active-color: #2ecc71;
-
-  /* 布局颜色 */
-  --waline-text-color: #444;
-  --waline-bgcolor: #fff;
-  --waline-bgcolor-light: #f8f8f8;
-  --waline-border-color: #ddd;
-  --waline-disable-bgcolor: #f8f8f8;
-  --waline-disable-color: #ddd;
-
-  /* 特殊颜色 */
-  --waline-bq-color: #f0f0f0;
-
-  /* 头像 */
-  --waline-avatar-size: 3.25rem;
-
-  /* 徽章 */
-  --waline-badge-color: #3498db;
-  --waline-badge-font-size: 0.775em;
-
-  /* 信息 */
-  --waline-info-bgcolor: #f8f8f8;
-  --waline-info-color: #999;
-  --waline-info-font-size: 0.625em;
-
-  /* * 使用边框 * */
-  --waline-border: 1px solid var(--waline-border-color);
-  --waline-box-shadow: none;
-}
-
 
 /**
  * Global
