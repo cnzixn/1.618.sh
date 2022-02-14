@@ -75,7 +75,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.2.1)
   jekyll-feed (~> 0.12)
-  jekyll-seo-tag
   jekyll-theme-console
   minima (~> 2.5)
   tzinfo (~> 1.2)
@@ -84,4 +83,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.30
+   2.3.3

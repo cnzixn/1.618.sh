@@ -77,7 +77,7 @@ header_pages:
   - bili.md
 #  - comment.md
 #  - essay.md
-#  - about.md
+  - about.md
 
 
 style: dark # dark (default) or light or hacker

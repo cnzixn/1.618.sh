@@ -11,13 +11,13 @@ categories: game
 $ wget file
 ```
 
-在 [模组使用指南](https://1.618.sh/mods) 页面下载所需文件:
+在 [模组使用指南]({{ site.baseurl }}/mods) 页面下载所需文件:
 
 ||| :--- |
 ||| 0001.TMI测试工具 |
 ||| 110128.兔人框架 |
-||| ShipWrecked.APK(1.28.1) |
-||| ShipWrecked.OBB(1.28.1) |
+||| *ShipWrecked.APK(1.28.1) |
+||| *ShipWrecked.OBB(1.28.1) |
 
 一般浏览器(Edge、Chrome)下载目录为 `/sdcard/download` 文件夹，找不到文件可以使用*MT管理器*的搜索功能[(tu00.png)]({{ site.baseurl }}/assets/image/bunnyman_tutorial00.png)。  
 

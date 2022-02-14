@@ -1,5 +1,5 @@
 ---
-title: /兔协
+title: /下载
 layout: page
 permalink: /mods
 ---
