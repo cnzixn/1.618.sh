@@ -27,7 +27,11 @@ $ cat statement
 $ cat tutorial
 ```
 
-[[TUTORIAL]新人入门级教程][WWW3]
+[【饥荒·新人入门级教程·文字版】][WWW3]  
+
+[【饥荒·从零开始玩模组·教程一·哔哩哔哩】](https://b23.tv/KpOCzTH)  
+
+[【饥荒·从零开始玩模组·教程二·哔哩哔哩】](https://b23.tv/4ncZ8gB)  
 
 
 ``` shell

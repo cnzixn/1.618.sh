@@ -4,8 +4,4 @@ layout: page
 permalink: /
 ---
 
-Loading...
-
-<script type="text/javascript">
-  window.location.replace("{{ site.baseurl }}/other/2022/02/12/zhangcheng.html");
-</script>
+私人网站，不对外开放......
