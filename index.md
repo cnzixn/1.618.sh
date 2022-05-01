@@ -4,4 +4,4 @@ layout: page
 permalink: /
 ---
 
-私人网站，不对外开放......
+<center>『私人网站，谢绝参观！』</center>
