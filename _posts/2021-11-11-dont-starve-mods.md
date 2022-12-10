@@ -6,19 +6,6 @@ categories: game
 ---
 
 
-<!--
-``` shell
-  
-# 声明
-$ cat statement
-```
-
-|【免费】：兔人框架的主要功能、移植而来的补丁**永久免费**，不要找任何人**购买**。|
-|【赞助】：喜欢就赞助，不喜欢就白嫖。框架的**专属优化**需要赞助，不喜欢可删除。|
-|【加密】：防止补丁文件遭**篡改**被随意贩卖；防止补丁文件因**搬运**而版本混乱。|
-
--->
-
 
 
 ``` shell
@@ -29,43 +16,13 @@ $ cat tutorial
 
 [【饥荒·新人入门级教程·文字版】][WWW3]  
 
-[【饥荒·从零开始玩模组·教程一·哔哩哔哩】](https://b23.tv/KpOCzTH)  
-
-[【饥荒·从零开始玩模组·教程二·哔哩哔哩】](https://b23.tv/4ncZ8gB)  
-
-
 ``` shell
   
 # 工具
 $ ls tools
 ```
 
-|[MT管理器(2.10.0)][APK2100]||[官方版本大全][APKMT2]|
-
-
-
-``` shell
-  
-# 游戏
-$ ls games
-```
-
-
-| :--- |
-| > 游戏试玩版本由 *纽扣助手* 提供|
-
-| [ShipWrecked.APK(1.28.1)](https://assistant-res.niucoo.cn/%E6%B8%B8%E6%88%8F/%E9%A5%A5%E8%8D%92%EF%BC%9A%E6%B5%B7%E9%9A%BE%20ShipWrecked-50-503.19MB/ShipWrecked_1.28_com.kleientertainment.doNotStarveShipwrecked_1612349086278363.apk) |
-
-<!--
-尊重版权，自行购买！
--->
-``` shell
-  
-# 框架
-$ ls frames
-```
-
-更新频繁，[[556106293]][QQG556]群文件下载。
+|[MT管理器][APKMT2]|
 
 
 
@@ -265,8 +222,7 @@ $ ls mods
 $ cat contact 
 ```
   
-|[[556106293]][QQG556]：全体禁言。发布更新通知，新人务必加入。|
-|[[614255348]][QQG614]：限时开放。古老的交流群，新人请勿加入。|
+|[[614255348]][QQG614]：古老的交流群。|
 
 
 
@@ -305,10 +261,6 @@ $ ls other
   
   
 [APKMT2]: http://d.mt2.cn/
-[APK2100]: https://dl.mt2.cn/MT2.10.0.apk
-[APK294]: https://dl.mt2.cn/MT2.9.4.apk
-[APK295]: https://dl.mt2.cn/MT2.9.5.apk
-[APK296]: https://dl.mt2.cn/MT2.9.6.apk
   
   
 [APK128]: http://sj.71acg.com/hykb/202101/20210105dontstarveship.apk
