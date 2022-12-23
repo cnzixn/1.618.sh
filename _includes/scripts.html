@@ -21,7 +21,9 @@
         B = B>=10 ? B : "0"+B;
         C = C>=10 ? C : "0"+C;
         D = D>=10 ? D : "0"+D;
-        document.getElementById("vdays").innerHTML = "" + A + "D " + B + "H " + C + "M " + D + "S"
+        E = Y.getFullYear()
+        document.getElementById("run_year").innerHTML = "" + E + " " 
+        document.getElementById("run_time").innerHTML = "" + A + "D " + B + "H " + C + "M " + D + "S"
     }
     show_runtime();
 </script>
@@ -37,7 +39,8 @@
         }else{
             obj.setAttribute("href","{{ "/assets/css/main-light.css" | relative_url }}");
         }
-        obj.setAttribute("href","{{ "/assets/css/main-dark.css" | relative_url }}"); // 暂时 强制设置为黑色主题
+         // (目前强制)设置为黑色主题
+        obj.setAttribute("href","{{ "/assets/css/main-dark.css" | relative_url }}");
     }
     time();
 </script>
