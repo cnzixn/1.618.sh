@@ -257,7 +257,7 @@ $ ls other
 [QQG777]: mqqopensdkapi://bizAgent/qm/qr?url=http://qm.qq.com/cgi-bin/qm/qr%3Ffrom=app%26p=android%26k=MNbFabUJEtYKRckugDrWITaD_hvJk1uT
 [QQG614]: mqqopensdkapi://bizAgent/qm/qr?url=http://qm.qq.com/cgi-bin/qm/qr%3Ffrom=app%26p=android%26k=KnkVjjF7OiwDcpO3WG6vXXTVn2bicq0J
 [QQG556]: mqqopensdkapi://bizAgent/qm/qr?url=http://qm.qq.com/cgi-bin/qm/qr%3Ffrom=app%26p=android%26k=1x8UWTmLfQVjdcpP8SRhLWdO8j_LICqt
-[QQGPD]: mqqopensdkapi://bizAgent/qm/qr?url=https://pd.qq.com/s/7tvokq9db
+[QQGPD]: https://pd.qq.com/s/7tvokq9db
   
   
 [APKMT2]: http://d.mt2.cn/
