@@ -1,7 +1,7 @@
 ---
-title: /下载
+title: /云盘
 layout: page
-permalink: /mods
+permalink: /pan
 ---
 
 123云盘：3秒后自动跳转...
