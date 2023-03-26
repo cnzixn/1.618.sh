@@ -6,15 +6,6 @@ categories: game
 ---
 
 
-
-``` shell
-  
-# 教程
-$ cat tutorial
-```
-
-[【饥荒·新人入门级教程·文字版】][WWW3]  
-
 ``` shell
   
 # 工具
