@@ -27,11 +27,20 @@ $ ls tools
 
 ``` shell
   
+# 游戏
+$ ls game
+```
+
+|[饑荒：黑化_1.28.1_2020.11.09][GAME128]|
+
+
+``` shell
+  
 # 框架
 $ ls frame
 ```
 
-|[兔人框架][FRAME128]|
+|[兔人框架_1.28.1_YYYY.MM.DD][FRAME128]|
 
 
 
@@ -40,7 +49,7 @@ $ ls frame
 # 补丁
 $ ls mods
 ```
-
+|[备用网盘][MODS128]|
 |:--|:--|
 |[0001.TMI测试工具][GIT-0001]|[0181.失落的岛屿][GIT-0181]|
  |[0002.荒岛][GIT-0002]|[0182.制作地毯][GIT-0182]|
@@ -276,7 +285,7 @@ $ ls other
 [PAN]: https://www.123pan.com/s/IC8lVv-2XNAv
 [GAME128]: https://www.123pan.com/s/IC8lVv-XXNAv
 [FRAME128]: https://www.123pan.com/s/IC8lVv-nXNAv
-
+[MODS128]: https://www.123pan.com/s/IC8lVv-MlNAv
 
   
   
