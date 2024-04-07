@@ -9,7 +9,7 @@ categories: game
 ``` shell
   
 # 工具
-$ ls tools
+~ $ ls tools
 ```
 
 |[MT管理器][APKMT2]|  
@@ -19,7 +19,7 @@ $ ls tools
 ``` shell
   
 # 游戏
-$ ls game
+~ $ ls game
 ```
 
 |[饑荒：黑化1.23(38)2019.06.18][GAME123]|  
@@ -28,7 +28,7 @@ $ ls game
 ``` shell
   
 # 框架
-$ ls frame
+~ $ ls frame
 ```
 
 |[兔人框架_1.23+_YYYY.MM.DD][FRAME123]|  
@@ -38,7 +38,7 @@ $ ls frame
 ``` shell
   
 # 补丁
-$ ls mods
+~ $ ls mods
 ```
 
 |[123网盘][MODS123]|  
@@ -48,7 +48,7 @@ $ ls mods
 ``` shell
   
 # 联系
-$ cat contact 
+~ $ ls contact 
 ```
   
 
@@ -59,7 +59,7 @@ $ cat contact
 ``` shell
   
 # 其它
-$ ls other
+~ $ ls other
 ```
 
 | [[更新日志]][WWW1] | | [[兔人优化包]][WWW2] |
@@ -75,7 +75,7 @@ $ ls other
   
   
   
-[TV000]: https://b23.tv/AeaOpL
+[TV000]: https://b23.tv/RxCKj7W
 [TV001]: ../videos/jiaocheng01.mp4
 [TV002]: ../videos/jiaocheng02.mp4
 [TV003]: ../videos/jiaocheng03.mp4

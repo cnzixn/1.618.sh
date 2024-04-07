@@ -71,11 +71,11 @@ GEM
 
 PLATFORMS
   aarch64-linux
+  aarch64-linux-android
 
 DEPENDENCIES
   jekyll (~> 4.2.1)
   jekyll-feed (~> 0.12)
-  jekyll-theme-console
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
@@ -83,4 +83,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.3
+   2.5.4
